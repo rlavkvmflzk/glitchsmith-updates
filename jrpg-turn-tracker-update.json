@@ -1,0 +1,9 @@
+{
+  "latestVersion": "99.0.0",
+  "downloadUrl": "",
+  "notes": "<b>🧪 glitchsmith-lib auto-discovery test</b><br>This entry exists solely to verify the new lib notifier subsystem. The version number is intentionally unrealistic so it won't collide with any future real release. Will be removed once verification is done.",
+  "critical": false,
+  "announcement": {
+    "show": false
+  }
+}
