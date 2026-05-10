@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.5",
+  "latestVersion": "1.9.6",
   "downloadUrl": "",
-  "notes": "<b>v1.9.5 Update</b><br>🔧 <b>Default Spell Preset Fixed:</b> The fallback cut-in for spells was not firing at all — now works correctly across DnD5e, PF2e, PF1e, and with Midi-QOL.<br>🔧 <b>Spell Use / Template Triggers Fixed:</b> Per-item On Use triggers and template placement triggers were silently failing.",
+  "notes": "<b>v1.9.6 Update</b><br>🎲 <b>PF2e Critical Success Check Trigger:</b> Added a PF2e-only Chat/Roll trigger for skill checks and saving throws that critically succeed.<br>🔧 <b>Safer Detection:</b> Rules text that merely says Critical Success no longer triggers a cut-in by mistake.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.5-release",
+    "id": "v1.9.6-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.9.5",
-    "content": "<p><b>v1.9.5 — Spell Trigger Fix</b></p><ul><li><b>🔧 Default Spell Preset:</b> The fallback cut-in for spells was not firing at all. Now works correctly across all supported systems and with Midi-QOL.</li><li><b>🔧 Item Triggers:</b> Per-item On Use triggers and template placement triggers (e.g. Fireball area) were silently failing. Fixed.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.9.6",
+    "content": "<p><b>v1.9.6: PF2e Check Critical Success Trigger</b></p><ul><li><b>🎲 New PF2e Chat/Roll trigger:</b> You can now trigger cut-ins when a PF2e skill check or saving throw rolls a Critical Success.</li><li><b>🔧 Safer detection:</b> Rules text that merely says Critical Success no longer triggers a cut-in by mistake.</li></ul>"
   }
 }
