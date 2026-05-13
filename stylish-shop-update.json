@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.2.1",
+  "latestVersion": "1.1.1",
   "downloadUrl": "",
-  "notes": "<b>v1.2.1 Hotfix</b><br>🐛 Fixed Project FU price overrides like <code>123zenit</code> being rejected as an unknown unit.<br><br><b>v1.1.0 Update</b><br>✨ Added native support for Starfinder 1e, Shadowrun 5e, Fabula Ultima, and SWADE.<br>✨ Added Shop Directory for tokenless shop access, with public shop visibility and buyer selection for players with multiple characters.<br>✨ Added bulk import, per-shop item descriptions, sell-back routing, minimize-to-dock windows, and public API hooks.<br>🐛 Fixed dialog stacking, config scroll retention, low-value sell prices, Display Stats scrolling, and duplicate localization keys.",
+  "notes": "<b>v1.1.1 Hotfix</b><br>🐛 Fixed Project FU price overrides like <code>123zenit</code> being rejected as an unknown unit.<br><br><b>v1.1.0 Update</b><br>✨ Added native support for Starfinder 1e, Shadowrun 5e, Fabula Ultima, and SWADE.<br>✨ Added Shop Directory for tokenless shop access, with public shop visibility and buyer selection for players with multiple characters.<br>✨ Added bulk import, per-shop item descriptions, sell-back routing, minimize-to-dock windows, and public API hooks.<br>🐛 Fixed dialog stacking, config scroll retention, low-value sell prices, Display Stats scrolling, and duplicate localization keys.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v1.2.1-hotfix",
+    "id": "stylish-shop-v1.1.1-hotfix",
     "show": true,
-    "title": "🛍️ Stylish Shop v1.2.1",
-    "content": "<p><b>Stylish Shop v1.2.1 is ready.</b></p><ul><li>Project FU price override values like <code>123zenit</code> now save correctly.</li><li>v1.1.0 adds Shop Directory, bulk import, item description overrides, sell-back routing, minimize-to-dock windows, and public APIs.</li><li>System adapters are included for Starfinder 1e, Shadowrun 5e, Fabula Ultima, and SWADE.</li></ul>"
+    "title": "🛍️ Stylish Shop v1.1.1",
+    "content": "<p><b>Stylish Shop v1.1.1 is ready.</b></p><ul><li>Project FU price override values like <code>123zenit</code> now save correctly.</li><li>v1.1.0 adds Shop Directory, bulk import, item description overrides, sell-back routing, minimize-to-dock windows, and public APIs.</li><li>System adapters are included for Starfinder 1e, Shadowrun 5e, Fabula Ultima, and SWADE.</li></ul>"
   }
 }
