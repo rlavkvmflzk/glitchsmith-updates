@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.2.2",
+  "latestVersion": "1.3.0",
   "downloadUrl": "",
-  "notes": "<b>v1.2.2 Version Fix</b><br>🔧 Version number bumped to 1.2.2 to avoid Forge download errors for installs that briefly saw the accidental 1.2.1 manifest.<br><br><b>v1.1.1 Hotfix</b><br>🐛 Fixed Project FU price overrides like <code>123zenit</code> being rejected as an unknown unit.<br><br><b>v1.1.0 Update</b><br>✨ Added native support for Starfinder 1e, Shadowrun 5e, Fabula Ultima, and SWADE.<br>✨ Added Shop Directory for tokenless shop access, with public shop visibility and buyer selection for players with multiple characters.<br>✨ Added bulk import, per-shop item descriptions, sell-back routing, minimize-to-dock windows, and public API hooks.<br>🐛 Fixed dialog stacking, config scroll retention, low-value sell prices, Display Stats scrolling, and duplicate localization keys.",
+  "notes": "<b>v1.3.0 Update</b><br>✨ Shop Directory now supports token-only shops while their unlinked token is on the current scene.<br>✨ GMs can open Shop Settings directly from Directory cards, including token-only shops.<br>✨ GM Directory entry now opens the character picker directly, while the settings button stays dedicated to Shop Settings.<br>✨ GMs can remove Stylish Shop configuration from an actor or token without deleting the actor, token, or items.<br>✨ Module settings now include a GlitchSmith Discord shortcut for support, feedback, and updates.<br>🐛 The left Scene Control Shop button no longer stays visually active after opening the Shop Directory.<br>🐛 Fantasy shop right-side banner text is now editable from the Identity tab.<br><br><b>v1.2.2 Version Fix</b><br>🔧 Version number bumped to 1.2.2 to avoid Forge download errors for installs that briefly saw the accidental 1.2.1 manifest.<br><br><b>v1.1.1 Hotfix</b><br>🐛 Fixed Project FU price overrides like <code>123zenit</code> being rejected as an unknown unit.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v1.2.2-version-fix",
+    "id": "stylish-shop-v1.3.0-qol-update",
     "show": true,
-    "title": "🛍️ Stylish Shop v1.2.2",
-    "content": "<p><b>Stylish Shop v1.2.2 is ready.</b></p><ul><li>The version number is set to 1.2.2 to avoid Forge download errors for installs that briefly saw the accidental 1.2.1 manifest.</li><li>Project FU price override values like <code>123zenit</code> save correctly.</li><li>v1.1.0 adds Shop Directory, bulk import, item description overrides, sell-back routing, minimize-to-dock windows, public APIs, and new system adapters.</li></ul>"
+    "title": "🛍️ Stylish Shop v1.3.0",
+    "content": "<p><b>Stylish Shop v1.3.0 is ready.</b></p><ul><li>Shop Directory now supports token-only shops while their unlinked token is on the current scene.</li><li>GMs can open Shop Settings directly from Directory cards and remove Stylish Shop setup from an actor or token without deleting anything.</li><li>Fantasy shop right-side banner text can now be edited from the Identity tab.</li><li>The left Scene Control Shop button no longer stays visually active after opening the Shop Directory.</li></ul>"
   }
 }
