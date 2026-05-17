@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.9.6",
+  "latestVersion": "1.10.0",
   "downloadUrl": "",
-  "notes": "<b>v1.9.6 Update</b><br>🎲 <b>PF2e Critical Success Check Trigger:</b> Added a PF2e-only Chat/Roll trigger for skill checks and saving throws that critically succeed.<br>🔧 <b>Safer Detection:</b> Rules text that merely says Critical Success no longer triggers a cut-in by mistake.",
+  "notes": "<b>v1.10.0 Update</b><br>🧩 <b>Manual All-Out Panel Layouts:</b> Split panels directly in the preview, undo the latest split, map panels to participants in order, and choose line assets including the new Prismatic Rift SVG line. Editor guides and panel numbers can be hidden while keeping the split line visible.<br>✋ <b>All-Out Ready Images & SFX:</b> Each participant can set their own Ready image and sound for when they join an All-Out vote, with independent zoom/position/scale/rotation/mirror that does not overwrite the normal All-Out setup.<br>🎛️ <b>Configuration Menu Cleanup:</b> Cut-in and All-Out settings windows are now organized into focused tabs. Personal cut-ins can hide the main character image or video, and Main/Sub text can use independent X/Y offsets.<br>🧪 <b>Condition Triggers:</b> Actor triggers can react when a matching condition is applied or removed, handling both ActiveEffect-based conditions and condition Item documents.<br>⚡ <b>Actor Group Trigger Inheritance:</b> Actors inherit trigger rules from their group's default global preset at runtime, with read-only previews and a Copy to Actor button for editing.<br>📺 <b>Broadcast Theme:</b> New personal cut-in theme styled after CRT signal screens and transmission interference, with scanlines, screen noise, accent frames, and caption-style text.",
   "critical": false,
   "announcement": {
-    "id": "v1.9.6-release",
+    "id": "v1.10.0-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.9.6",
-    "content": "<p><b>v1.9.6: PF2e Check Critical Success Trigger</b></p><ul><li><b>🎲 New PF2e Chat/Roll trigger:</b> You can now trigger cut-ins when a PF2e skill check or saving throw rolls a Critical Success.</li><li><b>🔧 Safer detection:</b> Rules text that merely says Critical Success no longer triggers a cut-in by mistake.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.10.0",
+    "content": "<p><b>v1.10.0: All-Out Attack Updates, Menu Cleanup & Triggers</b></p><ul><li><b>🧩 Manual All-Out Panel Layouts:</b> Split All-Out panels directly in the preview, undo splits, map panels to participants in order, and hide editor guides while keeping the selected split line visible.</li><li><b>✋ Ready Images & SFX:</b> Each participant can use their own Ready image and sound for All-Out voting, with independent adjustments.</li><li><b>🎛️ Configuration Menu Cleanup:</b> Cut-in and All-Out settings are now organized into focused tabs. Personal cut-ins can hide the main character image or video.</li><li><b>🧪 Condition Triggers:</b> Actor triggers can react to condition apply/remove events, handling both ActiveEffect-based conditions and condition Item documents.</li><li><b>⚡ Actor Group Trigger Inheritance:</b> Actors inherit trigger rules from their group's default global preset, with read-only previews and a Copy to Actor button.</li><li><b>📺 Broadcast Theme:</b> New personal cut-in theme styled after CRT signal screens and transmission interference.</li></ul>"
   }
 }
