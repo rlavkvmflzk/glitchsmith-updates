@@ -1,12 +1,13 @@
 {
-  "latestVersion": "2.1.3",
+  "latestVersion": "2.2.0",
   "downloadUrl": "",
-  "notes": "<b>v2.1.3 Update</b><br>⚡ Currency Definitions: Currency editing now lives in GlitchSmith Library's unified dialog, shared across every GlitchSmith module.<br>⚡ New \"Configure Currencies\" menu at module level opens the library dialog directly from settings.<br>⚡ Persistent notification appears if GlitchSmith Library is somehow disabled.",
+  "notes": "<b>v2.2.0 Update</b><br>✨ Added a GM System Toast sender with default, info, success, warning, and error toast styles. GMs can send to all active users or to selected users from GM Settings, or via a GM-only shortcut in Control Center.<br>✨ Added Simple Calendar Reborn as a Time Settings source. The original Simple Calendar integration is still available.<br>✨ GMs can now edit phone numbers regardless of the player custom-number setting.<br>✨ Added a public Banking API. Other GlitchSmith modules can read and update a character's primary bank balance, and history entries are recorded on each transaction. Stylish Shop v1.3.2 already uses this for its new Smartphone Banking payment route.<br>🐛 The Calendar app no longer opens itself when Simple Calendar advances time while another phone app is active.<br>🐛 Smartphone Widget action button styles no longer affect chat cards from other systems or modules.<br>🗑️ Update and announcement popups now come from GlitchSmith Library instead of the module's own notifier.",
   "critical": false,
+  "forceResetId": null,
   "announcement": {
-    "id": "smartphone-widget-v2.1.3-release",
+    "id": "smartphone-widget-v2.2.0-release",
     "show": true,
-    "title": "📱 Smartphone Widget v2.1.3",
-    "content": "<p><b>Smartphone Widget v2.1.3 is ready.</b></p><p>This release plugs into <b>GlitchSmith Library 0.3.0+</b>. Currency editing now lives in the library's unified dialog, shared across every GlitchSmith module.</p><ul><li><b>Currency Definitions:</b> The Currency Manager Admin's Currency tab gains an \"Open Currency Definitions\" button that opens the library dialog. Banks and Accounts tabs are unchanged.</li><li><b>Configure Currencies Menu:</b> A new menu entry at module level opens the same dialog directly from Smartphone Widget's settings.</li><li><b>Library Activation Check:</b> A persistent notification appears if GlitchSmith Library is somehow disabled.</li></ul>"
+    "title": "📱 Smartphone Widget v2.2.0",
+    "content": "<p><b>Smartphone Widget v2.2.0 is ready.</b></p><ul><li><b>System Toasts:</b> GMs can send styled toast notifications to all active users or selected users.</li><li><b>Simple Calendar Reborn:</b> Now available as a Time Settings source alongside the original Simple Calendar integration.</li><li><b>Phone Number Editing:</b> GMs can edit phone numbers regardless of the player custom-number setting.</li><li><b>Public Banking API:</b> Other GlitchSmith modules can read and update a character's primary bank balance. Stylish Shop v1.3.2 already uses this for its new Smartphone Banking payment option.</li></ul>"
   }
 }
