@@ -1,0 +1,13 @@
+{
+  "latestVersion": "1.1.0",
+  "downloadUrl": "",
+  "notes": "<b>v1.1.0 Update</b><br>✨ <b>Circuit Maze:</b> New Glitch Scanner puzzle type. Players navigate a procedural circuit-board maze with WASD or arrow keys, dodging blinking lightning hazards (reset on contact), slowdown hazards (half speed), and speed boosts (double speed). Each maze can include 0-2 key/lock pairs that gate progress. Five security levels scale the grid from 5x5 to 9x9. Time limit is configurable, defaulting to 30 seconds.<br>✨ Matches the Circuit Maze game added in Unboxing the Mystery v1.4.0, so the same maze experience can show up on both the smartphone scanner and Unboxing tiles.<br>💛 Originally commissioned by riffin, who chose to share it with every patron. Thanks, riffin!",
+  "critical": false,
+  "forceResetId": null,
+  "announcement": {
+    "id": "smartphone-widget-scanner-v1.1.0-release",
+    "show": true,
+    "title": "🧩 Scanner App v1.1.0",
+    "content": "<p><b>Smartphone - Scanner Apps v1.1.0 is ready.</b></p><ul><li><b>Circuit Maze:</b> New Glitch Scanner puzzle type. WASD or arrow keys, hazards, key/lock paths, and five security levels. Time limit is configurable, defaulting to 30 seconds.</li><li><b>Cross-Module:</b> Matches the Circuit Maze game added in Unboxing the Mystery v1.4.0 - the same maze experience shows up on both the smartphone scanner and Unboxing tiles.</li><li><b>Credit:</b> Originally commissioned by riffin, who chose to share it with every patron. Thanks, riffin!</li></ul>"
+  }
+}
