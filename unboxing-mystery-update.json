@@ -1,12 +1,13 @@
 {
-  "latestVersion": "1.3.3",
+  "latestVersion": "1.4.0",
   "downloadUrl": "",
-  "notes": "<b>v1.3.3 Update</b><br>⚡ Now supports Foundry VTT V13 and V14. Previous versions are no longer supported.<br>🐛 <b>Bug Fixes:</b><br>• Tile highlight and click detection now use correct coordinates on V14.<br>• Tile HUD buttons now render consistently with core Foundry HUD style.",
+  "notes": "<b>v1.4.0 Update</b><br>✨ <b>Circuit Maze:</b> New procedural circuit-board puzzle. Players navigate from start to exit with WASD controls. Yellow lightning hazards reset on contact, purple slowdown hazards halve movement, green speed boosts double it, and lock/key paths gate progress. Five difficulty levels and spectator mode included. Originally commissioned by riffin, who chose to share it with every patron.<br>✨ <b>Unified Currency Dialog:</b> System currencies (cp/sp/gp, etc.) and special currencies (gem tokens, event coins, etc.) now share one setup dialog. Existing custom currencies carry over automatically on next world load.<br>✨ <b>Shared Special Currencies:</b> Special currency balances are now stored in the GlitchSmith Library wallet, so the same balance is visible across other GlitchSmith modules. Special currencies can also use their own image icons in gacha rewards.<br>✨ <b>Broader System Support for Currency Rewards:</b> Container payouts and gacha sheet-currency rewards now work in every system the library supports: D&D 5e, Pathfinder 1e/2e, Starfinder/SF2e, Daggerheart, Cyberpunk Red, Shadowrun 5e/6e, Savage Worlds, Fabula Ultima, WFRP 4e. Multi-coin rewards apply in one step.<br>⚡ Claim All groups every reward into one summary notification instead of one toast per item or coin.<br>🗑️ Update and announcement popups now come from GlitchSmith Library instead of the module's own notifier.",
   "critical": false,
+  "forceResetId": null,
   "announcement": {
-    "id": "v1.3.3-release",
+    "id": "unboxing-mystery-v1.4.0-release",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.3.3",
-    "content": "<p><b>v1.3.3 — V14 Migration</b></p><ul><li><b>⚡ V14 Support:</b> Now supports Foundry VTT V13 and V14.</li><li><b>🐛 Tile Coordinates:</b> Highlight and click detection fixed for V14.</li><li><b>🐛 HUD Buttons:</b> Consistent rendering with core Foundry style.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.4.0",
+    "content": "<p><b>Unboxing the Mystery v1.4.0 is ready.</b></p><ul><li><b>Circuit Maze:</b> New procedural circuit-board puzzle with WASD movement, hazards, key/lock paths, and five difficulty levels. Originally commissioned by riffin, who chose to share it with every patron. Thanks, riffin!</li><li><b>Unified Currency Dialog:</b> System currencies and special currencies now share one setup dialog.</li><li><b>Shared Special Currencies:</b> Special currency balances (event coins, gem tokens, etc.) are now visible across other GlitchSmith modules.</li><li><b>Broader System Support:</b> Sheet-currency rewards now work in every system the GlitchSmith Library supports - D&D 5e, Pathfinder, Starfinder, Daggerheart, Cyberpunk Red, Shadowrun, Savage Worlds, Fabula Ultima, WFRP 4e.</li></ul>"
   }
 }
