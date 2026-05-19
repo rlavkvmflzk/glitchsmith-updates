@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.0",
+  "latestVersion": "1.1.1",
   "downloadUrl": "",
-  "notes": "<b>v1.1.0 Update</b><br>✨ Alert Chirps: GMs can mark posts as alerts, highlight them in the feed, and notify Chirp accounts.<br>✨ Direct message images now support previews and lightbox viewing.<br>✨ Users can edit their own posts, and GMs can edit any post.<br>✨ Added bookmarks view from the user's own profile.<br>✨ GMs can set fake follower and following counts for accounts.<br>⚡ Increased the composer input height for longer posts.",
+  "notes": "<b>v1.1.1 Patch</b><br>🐛 Chirp now defers automatic refreshes while a user is composing a post, editing profile fields, using GM overlays, or attaching a DM image. Missed updates are applied in one refresh as soon as it is safe, so active input is no longer interrupted.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "chirp-v1.1.0-release",
+    "id": "chirp-v1.1.1-realtime-refresh",
     "show": true,
-    "title": "🐦 Chirp App v1.1.0",
-    "content": "<p><b>Chirp App v1.1.0 is ready.</b></p><ul><li><b>Alert Chirps:</b> GMs can mark posts as alerts. Alert posts are highlighted in the feed and notify Chirp accounts.</li><li><b>Post Editing:</b> Users can edit their own posts, and GMs can edit any post.</li><li><b>Direct Message Images:</b> DMs now support image attachments with previews and lightbox viewing.</li><li><b>Bookmarks:</b> Users can open a bookmarks screen from their own profile.</li><li><b>Fake Follows:</b> GMs can set fake follower and following counts for accounts.</li><li><b>Composer Space:</b> The post composer input is taller for longer posts.</li></ul>"
+    "title": "🐦 Chirp App v1.1.1",
+    "content": "<p><b>Chirp App v1.1.1 is a small stability patch.</b></p><ul><li><b>Realtime Updates:</b> Chirp now waits before refreshing while users are composing posts, editing profiles, using GM overlays, or attaching DM images.</li><li>Any missed updates are applied in one refresh once it is safe, so timelines still catch up without interrupting active input.</li></ul>"
   }
 }
