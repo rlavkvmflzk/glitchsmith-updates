@@ -1,0 +1,13 @@
+{
+  "latestVersion": "3.4.9",
+  "downloadUrl": "",
+  "notes": "<b>v3.4.9 Compatibility Fixes</b><br>🐛 <b>PF2E chat layout:</b> PF2E chat headers now keep the message author line below the character name instead of collapsing into one row.<br>🐛 <b>CoC7E Fight Back dropdown:</b> The Fight Back weapon dropdown now appears near the chat card button instead of jumping to the top of the chat log.",
+  "critical": false,
+  "forceResetId": null,
+  "announcement": {
+    "id": "character-chat-selector-v3.4.9-pf2e-coc7e-fixes",
+    "show": true,
+    "title": "Character Chat Selector v3.4.9",
+    "content": "<p><b>Character Chat Selector v3.4.9 fixes two system compatibility issues.</b></p><ul><li>PF2E chat headers now keep the message author line below the character name.</li><li>CoC7E Fight Back weapon dropdowns now open near the chat card button instead of the top of the chat log.</li></ul>"
+  }
+}
