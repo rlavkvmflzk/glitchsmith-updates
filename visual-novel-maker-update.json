@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.1.2",
-  "notes": "🐛 Fixed typewriter sound continuing to play after closing the overlay, or randomly triggering when no dialogue was showing.\n🐛 Fixed weather FX (rain, snow, fog, etc.) rendering over the Foundry sidebar, making chat hard to read.",
+  "latestVersion": "1.2.1",
+  "notes": "<b>v1.2.1 Compatibility Patch</b><br>🔔 <b>GlitchSmith Library notifications:</b> Visual Novel Maker now requires GlitchSmith Library v0.6.0 or newer and uses the shared GlitchSmith notification board for update and announcement notices.<br>⚙️ <b>Sheet header icon-only option:</b> Added a client-side setting to show the Application V1 actor sheet Portrait Config button as an icon without its text label.<br><br><b>v1.2.0 Update</b><br>✨ <b>Scene Image Props:</b> GMs can place images directly on the VN stage as front-layer or back-layer props, move and resize them on the stage, and save them with snapshots and scene presets.<br>✨ <b>Live expression and voice controls:</b> Queue expression popup picks until an actor's next chat message, choose which staged character a user's microphone drives, and adjust inactive-character dimming or lip image behavior per client.<br>✨ <b>Character emotions and visual effects:</b> Added Dazed and Laughter placement emotions, Auto Emotion links for expressions, and per-character visual effects such as Hologram, Ghost, Stealth, Memory, Glitch, Ice, Fire, Electric Shock, Invert Color, and Awakening Aura.<br>✨ <b>Interaction scripting tools:</b> Dialogue text can display runtime flags with <code>{{flags.key}}</code>, Character Enter and Move actions can control facing, and GM macros can start private interactions for selected players.<br>🔧 <b>Portrait Config thumbnails:</b> Right-side standing, group standing, and expression lists now use generated 160px thumbnails instead of full-resolution portrait files.<br>🐛 <b>Fixes:</b> Empty sequences can receive their first action correctly, live voice highlights stay synced across clients, dock portraits keep their circular shape, private interactions stay isolated, and custom theme asset overrides no longer bleed into other themes.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "",
-    "show": false,
-    "title": "",
-    "content": ""
+    "id": "visual-novel-maker-v1.2.1-compatibility-v1.2.0-update",
+    "show": true,
+    "title": "🌸 Visual Novel Maker v1.2.1",
+    "content": "<p><b>Visual Novel Maker v1.2.1 is the current package for the v1.2.0 feature update.</b></p><ul><li><b>Compatibility patch:</b> Visual Novel Maker now requires GlitchSmith Library v0.6.0 or newer and uses the shared GlitchSmith notification board.</li><li><b>Sheet header option:</b> Module Settings now include an icon-only option for the App V1 actor sheet Portrait Config button.</li><li><b>v1.2.0 features:</b> Scene Image Props, queued live expressions, voice target selection, character emotions, visual effects, runtime flags, facing controls, private interaction macros, and Portrait Config thumbnail caching.</li></ul>"
   }
 }
