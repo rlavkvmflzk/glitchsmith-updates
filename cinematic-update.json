@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.10.1",
+  "latestVersion": "1.10.2",
   "downloadUrl": "",
-  "notes": "<b>v1.10.1 Update</b><br>🔁 <b>Stellar R/L Mirror:</b> Char Adjust mirror now flips characters during both Stellar right and left animations.<br>🔤 <b>Font Settings:</b> Saved All-Out Attack playback and vote sessions now keep main/sub font and bold/italic settings. Personal themes including Arcane also respect selected text fonts.<br>🎲 <b>Midi-QOL Damage Triggers:</b> Item Dice Check and Advanced Formula triggers now read Midi-QOL workflow attack and damage roll dice data instead of only the item card.",
+  "notes": "<b>v1.10.2 Hotfix</b><br>🔧 <b>Stellar R/L Character Scale:</b> Restored the original character scale behavior for Stellar right and left while keeping the v1.10.1 mirror fix.",
   "critical": false,
   "announcement": {
-    "id": "v1.10.1-release",
+    "id": "v1.10.2-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.10.1",
-    "content": "<p><b>v1.10.1: Bug Fixes</b></p><ul><li><b>Stellar R/L Mirror:</b> Char Adjust mirror now works during the Stellar right and left character animations.</li><li><b>Font Settings:</b> Saved All-Out Attack playback, vote sessions, and personal themes such as Arcane now respect selected main/sub fonts and bold/italic settings.</li><li><b>Midi-QOL Damage Triggers:</b> Item Dice Check and Advanced Formula triggers now read attack and damage roll dice from Midi-QOL workflow data.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.10.2",
+    "content": "<p><b>v1.10.2: Stellar R/L Hotfix</b></p><ul><li><b>Character Scale:</b> Stellar right and left now keep their original scale behavior while retaining the mirror fix from v1.10.1.</li></ul>"
   }
 }
