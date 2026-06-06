@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.4.4",
+    "latestVersion": "2.4.6",
     "critical": false,
-    "notes": "<b>v2.4.4 Update</b><br>✨ <b>Speaking portrait variants:</b> Per-card portrait variants and dynamic portrait image rules can now use their own speaking image while active.<br>🐛 <b>Generic resource max objects:</b> Bar-style tracked attributes now read object-based max values correctly, including max values exposed as <code>value</code> or <code>derived</code> and configured Max Path values.<br><br><b>v2.4.3 Hotfix</b><br>🐛 <b>D&D5e custom Max Path:</b> Tracking bars now respect the Max Path field in D&D5e, so custom counters such as Custom D&D 5e Sanity no longer stay visually full when their value changes.<br><br><b>v2.4.2 Hotfix</b><br>🐛 Fixed PF2e Speed sometimes showing as 0 on Foundry V14 / PF2e 8.x.<br>🐛 Fixed PF2e character sheets failing to open after editing Speed from the HUD.<br>🐛 Improved PF2e alternate speed handling for fly, climb, swim, and burrow.<br><br><b>v2.4.1 Hotfix</b><br>🐛 Fixed config panel crash on PF2e<br><br><b>v2.4.0 Update</b><br>📝 Card Quick Notes — write memos on any HUD card (all users)<br>💥 HP Change Popup — floating damage/healing numbers<br>👥 Scene Friendly NPCs — auto-display on HUD<br>🗂️ Actor Groups — save & swap roster selections<br>🖱️ Quick Roster Management — right-click add/remove<br>🐛 Fixed item uses (Ki Points, charges) not adjustable via HUD on DnD5e 4.x+",
+    "notes": "<b>v2.4.6 Hotfix</b><br>✨ <b>External theme API:</b> Adapters and companion modules can now register HUD themes with <code>api.registerTheme()</code> and read them with <code>api.getThemes()</code>.<br>🐛 <b>Theme registration fix:</b> External themes now write to the config theme registry, so they appear reliably in the theme selector.<br>🐛 <b>Theme selector labels:</b> Built-in theme names no longer show localization keys such as <code>IBHUD.Config.Themes.Iron</code>.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.4.4-release",
-        "title": "⚔️ Stylish Action HUD v2.4.4",
-        "content": "<p><b>v2.4.4 updates portrait variants and resource bars.</b></p><ul><li><b>Speaking portrait variants:</b> Per-card portrait variants and dynamic portrait image rules can now use their own speaking image while active.</li><li><b>Generic resource max values:</b> Bar-style tracked attributes now read object-based max values correctly, including <code>value</code>, <code>derived</code>, and configured Max Path values.</li><li><b>D&D5e custom Max Path:</b> The v2.4.3 fix is also included, so custom counters such as Custom D&D 5e Sanity no longer stay visually full when their value changes.</li></ul>"
+        "id": "v2.4.6-release",
+        "title": "⚔️ Stylish Action HUD v2.4.6",
+        "content": "<p><b>v2.4.6 adds the external theme API and fixes theme selector display issues.</b></p><ul><li><b>External theme API:</b> Adapters and companion modules can register custom themes with <code>api.registerTheme()</code>.</li><li><b>Theme registry fix:</b> Registered themes now use the same registry as the HUD config panel.</li><li><b>Theme selector labels:</b> Built-in theme names now display normally instead of showing localization keys.</li></ul>"
     }
 }
