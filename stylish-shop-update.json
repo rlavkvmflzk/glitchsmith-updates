@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.2",
+  "latestVersion": "1.4.3",
   "downloadUrl": "",
-  "notes": "<b>v1.4.2 Update</b><br><b>v1.4.0 main update:</b><br>- Added four shop themes: FRENZY, Astra, Dustroad, and Paper Moon.<br>- Added Stock Pools with weighted Folder/Compendium rolls and reusable world presets.<br>- Added service entries that can take payment and run a GM-side macro without granting an item.<br>- Added category tag color controls, purchase/sell chat notifications, movable windowed shops, and Ctrl/Cmd-click preview field jumping.<br>- Added Cosmere RPG currency support through GlitchSmith Library 0.7.0.<br>- Added the Purchase Interceptor API for modules that need to block or allow purchases before currency, inventory, or stock changes.<br><br><b>v1.4.1 patch:</b><br>- Fixed the Foundry VTT v13 toolbar issue where clicking the Stylish Shop toolbar button could leave Token Controls unclickable.<br><br><b>v1.4.2 patch:</b><br>- Fixed FRENZY shops showing category glyphs instead of item artwork in the buy list and focused item detail panel.",
+  "notes": "<b>v1.4.3 Update</b><br>- Service entries can now run an optional player macro on the buyer's own client after a purchase, alongside the existing GM macro. Dialogs, prompts, sounds, and animations from that macro now show on the purchasing player's screen instead of the GM's. The previous macro field is now labelled GM macro.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v1.4.2-release",
+    "id": "stylish-shop-v1.4.3-release",
     "show": true,
-    "title": "🛍️ Stylish Shop v1.4.2",
-    "content": "<p><b>Stylish Shop v1.4.2 includes the v1.4.0 feature update plus the latest small patches.</b></p><p><b>v1.4.0 main update</b></p><ul><li>Four new themes: FRENZY, Astra, Dustroad, and Paper Moon.</li><li>Stock Pools for weighted Folder/Compendium rolls, plus reusable world presets.</li><li>Service entries that take payment and can run a GM-side macro without granting an item.</li><li>Category tag color controls, purchase/sell chat notifications, movable windowed shops, and Ctrl/Cmd-click preview field jumping.</li><li>Cosmere RPG currency support through GlitchSmith Library 0.7.0.</li><li>Purchase Interceptor API for modules that need availability checks, quest gates, or other pre-purchase rules.</li></ul><p><b>v1.4.1 patch</b></p><ul><li>Fixed the Foundry VTT v13 toolbar issue where clicking the Stylish Shop toolbar button could leave Token Controls unclickable.</li></ul><p><b>v1.4.2 patch</b></p><ul><li>Fixed FRENZY shops showing category glyphs instead of item artwork in the buy list and focused item detail panel.</li></ul>"
+    "title": "🛍️ Stylish Shop v1.4.3",
+    "content": "<p><b>Stylish Shop v1.4.3 adds player-side service macros.</b></p><ul><li>Service entries can now run an optional player macro on the buyer's own client after a purchase, alongside the existing GM macro.</li><li>Dialogs, prompts, sounds, and animations from that macro now appear on the purchasing player's screen instead of the GM's.</li><li>The original macro field is now labelled GM macro so the two are easy to tell apart.</li></ul>"
   }
 }
