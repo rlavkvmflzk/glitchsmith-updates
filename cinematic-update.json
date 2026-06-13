@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.10.2",
+  "latestVersion": "1.10.3",
   "downloadUrl": "",
-  "notes": "<b>v1.10.2 Hotfix</b><br>🔧 <b>Stellar R/L Character Scale:</b> Restored the original character scale behavior for Stellar right and left while keeping the v1.10.1 mirror fix.",
+  "notes": "<b>v1.10.3 Hotfix</b><br>🔧 <b>Cut-In Loading:</b> Cut-ins now wait for artwork to load and decode before the animation starts, preventing slow-loading large images from cutting the animation short. Applies to personal cut-ins, All-Out Attacks, and in-element playback.<br><br>📌 Very large images can still delay the first play while clients download them, so resizing oversized art or using WebP is still recommended.",
   "critical": false,
   "announcement": {
-    "id": "v1.10.2-release",
+    "id": "v1.10.3-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.10.2",
-    "content": "<p><b>v1.10.2: Stellar R/L Hotfix</b></p><ul><li><b>Character Scale:</b> Stellar right and left now keep their original scale behavior while retaining the mirror fix from v1.10.1.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v1.10.3",
+    "content": "<p><b>v1.10.3: Large Image Loading Hotfix</b></p><ul><li><b>Cut-In Loading:</b> Personal cut-ins, All-Out Attacks, and in-element playback now wait until artwork is loaded and decoded before starting the animation.</li><li><b>Large Image Handling:</b> Slow-loading images should no longer produce truncated, half-finished animations. Very large files can still take a moment on first play, so resized or WebP assets are recommended.</li></ul>"
   }
 }
