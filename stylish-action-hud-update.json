@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.4.6",
+    "latestVersion": "2.5.0",
     "critical": false,
-    "notes": "<b>v2.4.6 Hotfix</b><br>✨ <b>External theme API:</b> Adapters and companion modules can now register HUD themes with <code>api.registerTheme()</code> and read them with <code>api.getThemes()</code>.<br>🐛 <b>Theme registration fix:</b> External themes now write to the config theme registry, so they appear reliably in the theme selector.<br>🐛 <b>Theme selector labels:</b> Built-in theme names no longer show localization keys such as <code>IBHUD.Config.Themes.Iron</code>.",
+    "notes": "<b>v2.5.0 Update</b><br>⚔️ <b>New HUD themes:</b> Zenith and Rift add two built-in visual styles with shard-style gauges, rotated portrait chips, ornate frames, and tapered bars.<br>🎚️ <b>Custom resource stages:</b> Each tracked attribute can define stage names, percentage thresholds, label colors, and separate resource bar colors.<br>📦 <b>Compact resources:</b> Collapsed cards can show up to two mini bars, or an icon plus value without the label.<br>🎨 <b>Compact card appearance:</b> Collapsed card width, height, border radius, border color, and background color can be set globally or per actor.<br>🧭 <b>Card, status, and action tools:</b> Right-click card quick edit/reorder, roster order controls, token-name fallback labels, D&D5e activation grouping, and status icon horizontal/vertical/hidden layout.<br>🐛 <b>Fixes:</b> Iron theme hit feedback, Foundry V14 status icons, safer status icon markup, and PF1 tracked item charge updates.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.4.6-release",
-        "title": "⚔️ Stylish Action HUD v2.4.6",
-        "content": "<p><b>v2.4.6 adds the external theme API and fixes theme selector display issues.</b></p><ul><li><b>External theme API:</b> Adapters and companion modules can register custom themes with <code>api.registerTheme()</code>.</li><li><b>Theme registry fix:</b> Registered themes now use the same registry as the HUD config panel.</li><li><b>Theme selector labels:</b> Built-in theme names now display normally instead of showing localization keys.</li></ul>"
+        "id": "v2.5.0-release",
+        "title": "⚔️ Stylish Action HUD v2.5.0",
+        "content": "<p><b>v2.5.0 adds new HUD themes, per-stage resource bar colors, compact-card appearance controls, and status icon layout options.</b></p><ul><li><b>New HUD themes:</b> Zenith and Rift add two built-in visual styles with their own card layouts, action menu styling, and compact forms.</li><li><b>Custom resource stages:</b> Each tracked attribute can define stage names, percentage thresholds, label colors, and separate resource bar colors.</li><li><b>Compact resource display:</b> Collapsed cards can show up to two resource mini bars, or an icon plus value without the label.</li><li><b>Compact card appearance:</b> Width, height, border radius, border color, and background color can be set globally or per actor.</li><li><b>Card, status, and action tools:</b> Right-click cards for edit/reorder/remove actions, set roster order, group D&D5e Features by activation type, and choose horizontal, vertical, or hidden status icons.</li><li><b>Fixes:</b> Restores Foundry V14 status icons, fixes Iron hit feedback, avoids PF1 item-charge actor data corruption, and hardens status icon markup.</li></ul>"
     }
 }
