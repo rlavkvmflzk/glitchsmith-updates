@@ -1,0 +1,13 @@
+{
+  "latestVersion": "1.1.3",
+  "downloadUrl": "",
+  "notes": "<b>v1.1.3 Patch</b><br>🐛 Custom organization logos on ID cards no longer collapse into a thin vertical line. Logos now keep a fixed square slot in the card header and scale proportionally inside it.",
+  "critical": false,
+  "forceResetId": null,
+  "announcement": {
+    "id": "smartphone-id-card-v1.1.3-logo-fix",
+    "show": true,
+    "title": "🪪 ID Card App v1.1.3",
+    "content": "<p><b>ID Card App v1.1.3 fixes custom organization logos.</b></p><ul><li>Custom logos no longer collapse into a thin vertical line in the card header.</li><li>Logos now keep a fixed square slot and scale proportionally inside it.</li></ul>"
+  }
+}
