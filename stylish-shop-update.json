@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.3",
+  "latestVersion": "1.4.4",
   "downloadUrl": "",
-  "notes": "<b>v1.4.3 Update</b><br>- Service entries can now run an optional player macro on the buyer's own client after a purchase, alongside the existing GM macro. Dialogs, prompts, sounds, and animations from that macro now show on the purchasing player's screen instead of the GM's. The previous macro field is now labelled GM macro.",
+  "notes": "<b>v1.4.4 Update</b><br>- Shop Settings now keeps edited item prices, rarities, stock, tags, and service macro fields when categories change. Adding, removing, reordering, bulk-importing, or rolling stock no longer restores an older category snapshot.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v1.4.3-release",
+    "id": "stylish-shop-v1.4.4-release",
     "show": true,
-    "title": "🛍️ Stylish Shop v1.4.3",
-    "content": "<p><b>Stylish Shop v1.4.3 adds player-side service macros.</b></p><ul><li>Service entries can now run an optional player macro on the buyer's own client after a purchase, alongside the existing GM macro.</li><li>Dialogs, prompts, sounds, and animations from that macro now appear on the purchasing player's screen instead of the GM's.</li><li>The original macro field is now labelled GM macro so the two are easy to tell apart.</li></ul>"
+    "title": "🛍️ Stylish Shop v1.4.4",
+    "content": "<p><b>Stylish Shop v1.4.4 fixes Shop Settings item edit preservation.</b></p><ul><li>Edited item prices, rarities, stock, tags, and service macro fields now stay in place when the category list changes.</li><li>Adding, removing, reordering, bulk-importing, or rolling stock no longer restores an older category snapshot.</li></ul>"
   }
 }
