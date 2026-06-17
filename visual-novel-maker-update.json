@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.5",
-  "notes": "<b>v1.2.5 Update</b><br>✨ <b>Adaptive UI Scaling:</b> The VN stage UI now scales to fit your screen, designed around 1920×1080, so the dialogue box, nameplate, choices, and character frames keep their proportions on QHD, 4K, and ultrawide displays. A new client setting (on by default) controls this; turn it off for the previous fixed pixel sizes.<br>🔧 <b>Dazed emotion visual:</b> Dazed now shows a single slowly spinning head spiral instead of the previous ellipsis bubble, which could read like a chat typing indicator.<br>🐛 <b>Framed dialogue text on wide screens:</b> Dialogue text no longer starts too far left and runs under a framed dialogue box's border on ultrawide and high-resolution displays.",
+  "latestVersion": "1.2.6",
+  "notes": "<b>v1.2.6 Update</b><br>🐛 <b>Cinematic Cut-in name placeholders:</b> Actor cut-ins triggered from Visual Novel Maker now resolve Cinematic Cut-ins text placeholders such as <code>{{name}}</code> and <code>{{alias}}</code> before playback, including variation text.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.2.5-adaptive-ui-scaling",
+    "id": "visual-novel-maker-v1.2.6-cinematic-cutin-placeholders",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.2.5",
-    "content": "<p><b>Visual Novel Maker v1.2.5 scales the stage UI to your screen and redraws the Dazed emotion.</b></p><ul><li><b>Adaptive UI Scaling:</b> The stage UI scales from a 1920×1080 reference, keeping proportions on QHD, 4K, and ultrawide. New client setting, on by default.</li><li><b>Dazed redesign:</b> A single slowly spinning head spiral replaces the old ellipsis bubble, which could look like a chat typing indicator.</li><li><b>Framed dialogue fix:</b> Text stays inside the frame border on wide and high-resolution displays.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.2.6",
+    "content": "<p><b>Visual Novel Maker v1.2.6 fixes actor name placeholders in Cinematic Cut-ins.</b></p><ul><li>Actor cut-ins triggered from Visual Novel Maker now resolve <code>{{name}}</code> and <code>{{alias}}</code> before playback.</li><li>Variation text is handled too, so randomized cut-in text no longer shows the raw placeholder.</li></ul>"
   }
 }
