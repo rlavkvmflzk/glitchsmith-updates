@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.5.2",
+    "latestVersion": "2.5.3",
     "critical": false,
-    "notes": "<b>v2.5.2 Update</b><br>🖼️ <b>Compact portrait framing:</b> New zoom and X/Y offset controls to reframe portraits on collapsed cards, separate from the expanded card.<br>🐛 <b>PF2e fix:</b> NPC attacks show up in the action menu again.",
+    "notes": "<b>v2.5.3 Update</b><br>🖼️ <b>Compact portrait fix:</b> Collapsed portraits no longer inherit expanded portrait X/Y/Scale values when compact-specific portrait values are empty.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.5.2-release",
-        "title": "⚔️ Stylish Action HUD v2.5.2",
-        "content": "<p><b>v2.5.2 adds compact portrait framing and fixes PF2e NPC attacks.</b></p><ul><li><b>Compact portrait framing:</b> Collapsed cards get their own portrait zoom and X/Y offset, so you can reframe a head in compact mode without changing the expanded card. Works globally and per actor, on every built-in theme.</li><li><b>PF2e NPC strikes:</b> NPC attacks no longer vanish from the action menu.</li></ul>"
+        "id": "v2.5.3-release",
+        "title": "⚔️ Stylish Action HUD v2.5.3",
+        "content": "<p><b>v2.5.3 fixes compact portrait offset inheritance.</b></p><ul><li><b>Compact portrait fix:</b> Normal portrait X/Y/Scale no longer shifts collapsed portraits when compact-specific portrait values are empty.</li></ul>"
     }
 }
