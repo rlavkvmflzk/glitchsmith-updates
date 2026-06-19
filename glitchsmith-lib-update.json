@@ -1,13 +1,13 @@
 {
-  "latestVersion": "0.6.2",
+  "latestVersion": "0.8.2",
   "downloadUrl": "",
-  "notes": "<b>v0.6.2 Hotfix</b><br>🐛 <b>Currency exchange rates:</b> Currency definitions now accept positive fractional rates below 1, such as <code>0.625</code>, for sheet and virtual currencies.<br>🔔 <b>Visual Novel Maker notifications:</b> Visual Novel Maker is now auto-discovered by the notifier subsystem after its standalone UpdateNotifier was retired.<br><br><b>v0.6.1 Hotfix</b><br>🐛 <b>Notification Board update notes:</b> Update notes now render inline HTML formatting correctly, so tags such as <code>&lt;b&gt;</code>, <code>&lt;br&gt;</code>, and <code>&lt;code&gt;</code> no longer appear as raw text.<br><br><b>v0.6.0 Update</b><br>✨ <b>Notification Board:</b> GlitchSmith updates and announcements now surface through a single board instead of one popup per module. The board uses tabs for Updates and Announcements, with per-module sub-tabs when more than one entry is available. Skip, disable, and acknowledge actions stay per module.<br>✨ <b>Library self-notifications:</b> The library now publishes its own update entries through the same board.<br>✨ <b>Notifier API:</b> Added <code>api.notifier.openBoard()</code> for modules that want to surface the board manually.<br><br><b>v0.5.1 Update</b><br>⚡ <b>SWADE decimal currency migration:</b> Existing SWADE worlds whose currency entry was created before decimal support automatically gain decimal precision on next load so that <code>system.details.currency</code> accepts fractional amounts without a manual reset. Runs once per world and skips currencies the GM has already configured.<br><br><b>v0.5.0 Update</b><br>✨ <b>Shared sheet currency API:</b> Added <code>getSheetCurrencies</code>, <code>getSheetBalance</code>, <code>setSheetBalance</code>, <code>modifySheetBalance</code>, <code>setSheetBalances</code>, and <code>registerSheetCurrencyDriver</code> under <code>glitchsmith-lib.currency</code>.<br>✨ <b>Batch sheet currency updates:</b> Added <code>modifySheetBalances</code> for multi-denomination rewards and transactions.<br>✨ <b>Built-in sheet drivers:</b> Actor data paths, PF2e/SF2e coin inventory APIs, and WFRP4e money items.<br>✨ <b>Driver registration hook:</b> Added the <code>glitchsmith-lib.registerSheetCurrencyDrivers</code> hook for external systems.",
+  "notes": "<b>v0.8.2 Update</b><br>- Improved Currency Definitions Embedded Item actor scan results with search, a live count, a filtered empty state, and a scrollable list for actors with many item-based currency candidates.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "glitchsmith-lib-v0.6.2-currency-rate-and-vnm-notifier",
+    "id": "glitchsmith-lib-v0.8.2-currency-definitions-scan-ui",
     "show": true,
-    "title": "🔔 GlitchSmith Library v0.6.2",
-    "content": "<p><b>GlitchSmith Library v0.6.2 is a hotfix update.</b></p><ul><li><b>Currency exchange rates:</b> Currency definitions now accept positive fractional rates below 1, such as <code>0.625</code>, for sheet and virtual currencies.</li><li><b>Visual Novel Maker notifications:</b> Visual Novel Maker is now auto-discovered by the shared notifier after its standalone UpdateNotifier was retired.</li></ul>"
+    "title": "🔔 GlitchSmith Library v0.8.2",
+    "content": "<p><b>GlitchSmith Library v0.8.2 improves the Currency Definitions dialog.</b></p><ul><li>Embedded Item actor scan results now include search, a live result count, and a no-match state.</li><li>The candidate list is capped with its own scrollbar, so actors with many item-based currencies no longer stretch the dialog.</li></ul>"
   }
 }
