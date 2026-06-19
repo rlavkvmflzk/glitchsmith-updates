@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.4",
+  "latestVersion": "1.4.6",
   "downloadUrl": "",
-  "notes": "<b>v1.4.4 Update</b><br>- Shop Settings now keeps edited item prices, rarities, stock, tags, and service macro fields when categories change. Adding, removing, reordering, bulk-importing, or rolling stock no longer restores an older category snapshot.",
+  "notes": "<b>v1.4.6 Update</b><br>- Added a Shop Price Currency option that converts shop prices into one selected currency for display, purchase, and sell, including GlitchSmith Library virtual currencies.<br>- Fixed Shop Directory titles so SF, Astra, and FRENZY character shops no longer show a stale subtitle from another theme.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v1.4.4-release",
+    "id": "stylish-shop-v1.4.6-release",
     "show": true,
-    "title": "🛍️ Stylish Shop v1.4.4",
-    "content": "<p><b>Stylish Shop v1.4.4 fixes Shop Settings item edit preservation.</b></p><ul><li>Edited item prices, rarities, stock, tags, and service macro fields now stay in place when the category list changes.</li><li>Adding, removing, reordering, bulk-importing, or rolling stock no longer restores an older category snapshot.</li></ul>"
+    "title": "🛍️ Stylish Shop v1.4.6",
+    "content": "<p><b>Stylish Shop v1.4.6 adds forced price currency and fixes a directory subtitle edge case.</b></p><ul><li>Shop Settings now has a Shop Price Currency option. Native keeps item denominations; selecting one currency converts prices, purchases, and sell payouts into that currency.</li><li>Example: a PF2e item priced at <code>2 gp</code> can show and pay as <code>20bc</code> when <code>bc</code> is worth one silver.</li><li>SF, Astra, and FRENZY character shops no longer show an old subtitle in the Shop Directory after switching from a subtitle-supporting theme.</li></ul>"
   }
 }
