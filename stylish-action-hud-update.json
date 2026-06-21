@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.5.3",
+    "latestVersion": "2.5.5",
     "critical": false,
-    "notes": "<b>v2.5.3 Update</b><br>🖼️ <b>Compact portrait fix:</b> Collapsed portraits no longer inherit expanded portrait X/Y/Scale values when compact-specific portrait values are empty.",
+    "notes": "<b>v2.5.5 Update</b><br>🛡️ <b>PF2e equipment actions:</b> Weapons and shields now expose Raise, Draw, Sheathe, Change Grip, and Drop through Manage buttons in Strike and Inventory menus.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.5.3-release",
-        "title": "⚔️ Stylish Action HUD v2.5.3",
-        "content": "<p><b>v2.5.3 fixes compact portrait offset inheritance.</b></p><ul><li><b>Compact portrait fix:</b> Normal portrait X/Y/Scale no longer shifts collapsed portraits when compact-specific portrait values are empty.</li></ul>"
+        "id": "v2.5.5-release",
+        "title": "⚔️ Stylish Action HUD v2.5.5",
+        "content": "<p><b>v2.5.5 improves PF2e weapon and shield controls.</b></p><ul><li><b>Shield inventory items:</b> Shields now appear in the PF2e Inventory menu with equipment management controls.</li><li><b>Native equipment actions:</b> Raise, Draw, Sheathe, Change Grip, and Drop now appear in Manage menus when PF2e exposes them for a weapon or shield.</li><li><b>Strike Manage button:</b> Strike rows now include a compact Manage button for equipment actions without duplicating every inline sheet button.</li></ul>"
     }
 }
