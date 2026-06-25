@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.2.6",
+  "latestVersion": "2.2.7",
   "downloadUrl": "",
-  "notes": "<b>v2.2.6 Update</b><br>🐛 <b>Subfolder-hosted Foundry instances:</b> Replaced root-relative GlitchSmith Library imports and default phone asset paths with route-aware URLs, fixing missing settings, default sounds, and emoji data when Foundry is served under a route prefix such as /INSTANCE/game.",
+  "notes": "<b>v2.2.7 Update</b><br>🐛 <b>Notes not saving (V14):</b> Note text is no longer discarded on save. The editor was reading Foundry V14's chat box instead of the note's own editor, so toolbar formatting and image insertion are fixed by the same change.<br>🐛 <b>First-run gesture hints:</b> The pull-down and swipe-up guide markers now sit on the actual gesture zones, so grabbing one no longer drags the whole widget.<br>🐛 <b>Note header alignment:</b> The Edit and delete buttons in a note's header line up again.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "smartphone-widget-v2.2.6-release",
+    "id": "smartphone-widget-v2.2.7-release",
     "show": true,
-    "title": "📱 Smartphone Widget v2.2.6",
-    "content": "<p><b>Smartphone Widget v2.2.6 fixes imports and assets for subfolder-hosted Foundry instances.</b></p><ul><li>Replaced root-relative GlitchSmith Library imports and default phone asset paths with route-aware URLs.</li><li>This fixes missing settings, default sounds, and emoji data when Foundry is served under a route prefix.</li></ul>"
+    "title": "📱 Smartphone Widget v2.2.7",
+    "content": "<p><b>Smartphone Widget v2.2.7 fixes note saving on Foundry V14 and a couple of UI issues.</b></p><ul><li>Notes no longer save empty on V14. The editor was reading Foundry's chat box instead of the note, so toolbar formatting and image insertion are fixed by the same change.</li><li>First-run gesture hint markers now sit on the actual swipe zones, so grabbing one no longer drags the whole phone.</li><li>The Edit and delete buttons in a note's header line up again.</li></ul>"
   }
 }
