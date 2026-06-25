@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.6",
-  "notes": "<b>v1.2.6 Update</b><br>🐛 <b>Cinematic Cut-in name placeholders:</b> Actor cut-ins triggered from Visual Novel Maker now resolve Cinematic Cut-ins text placeholders such as <code>{{name}}</code> and <code>{{alias}}</code> before playback, including variation text.",
+  "latestVersion": "1.2.7",
+  "notes": "<b>v1.2.7 Update</b><br>🐛 <b>Hidden Dialogue Manual Advance:</b> Nodes with 'Hide dialogue box' now wait for manual advance by clicking the VN stage instead of running through automatically, letting GMs pause on scene props or images for narration without adding Delay actions.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.2.6-cinematic-cutin-placeholders",
+    "id": "visual-novel-maker-v1.2.7-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.2.6",
-    "content": "<p><b>Visual Novel Maker v1.2.6 fixes actor name placeholders in Cinematic Cut-ins.</b></p><ul><li>Actor cut-ins triggered from Visual Novel Maker now resolve <code>{{name}}</code> and <code>{{alias}}</code> before playback.</li><li>Variation text is handled too, so randomized cut-in text no longer shows the raw placeholder.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.2.7",
+    "content": "<p><b>Visual Novel Maker v1.2.7 updates manual advance behavior when the dialogue box is hidden.</b></p><ul><li>Nodes with <code>Hide dialogue box on this node</code> enabled now wait for manual advance.</li><li>Clicking the VN stage advances the sequence, so GMs can pause on images or scene props for narration without adding Delay actions.</li></ul>"
   }
 }

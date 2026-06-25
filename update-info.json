@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.2.5",
+  "latestVersion": "2.2.6",
   "downloadUrl": "",
-  "notes": "<b>v2.2.5 Update</b><br>✨ Custom frame images can now be nudged horizontally and vertically from Display settings, making it easier to align imported frame artwork.<br>🐛 Social App profiles now open even when the actor originally linked to the account was deleted or replaced. This fixes the \"Could not find the owner of the account.\" error for affected accounts.",
+  "notes": "<b>v2.2.6 Update</b><br>🐛 <b>Subfolder-hosted Foundry instances:</b> Replaced root-relative GlitchSmith Library imports and default phone asset paths with route-aware URLs, fixing missing settings, default sounds, and emoji data when Foundry is served under a route prefix such as /INSTANCE/game.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "smartphone-widget-v2.2.5-social-owner-custom-frame-offsets",
+    "id": "smartphone-widget-v2.2.6-release",
     "show": true,
-    "title": "📱 Smartphone Widget v2.2.5",
-    "content": "<p><b>Smartphone Widget v2.2.5 includes a Social App fix and custom frame positioning controls.</b></p><ul><li>Custom frame images now have horizontal and vertical offset sliders in Display settings.</li><li>Social App profiles no longer fail to open when the actor originally linked to the account was deleted or replaced.</li></ul>"
+    "title": "📱 Smartphone Widget v2.2.6",
+    "content": "<p><b>Smartphone Widget v2.2.6 fixes imports and assets for subfolder-hosted Foundry instances.</b></p><ul><li>Replaced root-relative GlitchSmith Library imports and default phone asset paths with route-aware URLs.</li><li>This fixes missing settings, default sounds, and emoji data when Foundry is served under a route prefix.</li></ul>"
   }
 }

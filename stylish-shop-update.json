@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.6",
+  "latestVersion": "1.5.0",
   "downloadUrl": "",
-  "notes": "<b>v1.4.6 Update</b><br>- Added a Shop Price Currency option that converts shop prices into one selected currency for display, purchase, and sell, including GlitchSmith Library virtual currencies.<br>- Fixed Shop Directory titles so SF, Astra, and FRENZY character shops no longer show a stale subtitle from another theme.",
+  "notes": "<b>v1.5.0 Update</b><br>- Item purchase requirements: shop items can require the buyer to own specific items, with optional consume on purchase.<br>- Requirement editor in Shop Settings with drag-and-drop item targeting.<br>- Personal discounts: per-buyer percent discounts with an actor picker dialog, stacking with shop multiplier and item discounts.<br>- Randomized shop prices: stable per-item price variance that stamps once and never rerolls on open.<br>- Shop entry methods: choose G-key, double-click, or both per shop.<br>- Key Hints toggle in Shop Settings to hide bottom navigation hints.<br>- Requirements now appear in the item detail panel across all 11 themes.<br>- Theme-specific requirement styling for purchase confirmation and detail panel.<br>- Grid theme item thumbnails now show item artwork instead of category glyphs.<br>- grid-fantasy and character-fantasy search bar and header improvements.<br>- Fixed grid-fantasy item list spacing and subfolder-hosted Foundry instance imports.<br>- Fixed Frenzy theme detail pane not scrolling, which hid the purchase button when requirement rows or long descriptions were present.<br>- Fixed vendor currency not incrementing when purchasing items from a shop with infinite funds disabled.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v1.4.6-release",
+    "id": "stylish-shop-v1.5.0-release",
     "show": true,
-    "title": "🛍️ Stylish Shop v1.4.6",
-    "content": "<p><b>Stylish Shop v1.4.6 adds forced price currency and fixes a directory subtitle edge case.</b></p><ul><li>Shop Settings now has a Shop Price Currency option. Native keeps item denominations; selecting one currency converts prices, purchases, and sell payouts into that currency.</li><li>Example: a PF2e item priced at <code>2 gp</code> can show and pay as <code>20bc</code> when <code>bc</code> is worth one silver.</li><li>SF, Astra, and FRENZY character shops no longer show an old subtitle in the Shop Directory after switching from a subtitle-supporting theme.</li></ul>"
+    "title": "🛍️ Stylish Shop v1.5.0",
+    "content": "<p><b>Stylish Shop v1.5.0 adds purchase requirements, personal discounts, randomized prices, and shop entry methods.</b></p><ul><li>Shop items can require the buyer to own specific items before purchasing, with an optional consume flag that spends them on success.</li><li>Per-buyer personal discounts with an actor picker dialog (search, PC/NPC filters, portraits). Discounts stack with the shop multiplier and per-item discount, enforced server-side.</li><li>Price Variance (%) gives each item a stable random price within a set range, stamped once so it never rerolls when the shop opens.</li><li>Shop Settings now lets GMs choose G-key, double-click, or both as entry methods per shop.</li><li>Purchase requirements now appear in the item detail panel across all 11 themes, not just the purchase confirmation.</li><li>Grid themes now show item artwork in buy and sell rows instead of category glyphs.</li><li>Fixed Frenzy theme detail pane not scrolling when requirement rows pushed the purchase button out of view.</li><li>Fixed vendor currency not incrementing when purchasing items from a shop with infinite funds disabled.</li></ul>"
   }
 }
