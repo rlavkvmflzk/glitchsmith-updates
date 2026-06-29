@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.7",
-  "notes": "<b>v1.2.7 Update</b><br>🐛 <b>Hidden Dialogue Manual Advance:</b> Nodes with 'Hide dialogue box' now wait for manual advance by clicking the VN stage instead of running through automatically, letting GMs pause on scene props or images for narration without adding Delay actions.",
+  "latestVersion": "1.2.10",
+  "notes": "<b>v1.2.10 Update</b><br>🐛 <b>Sequence Editor Selection and Delete Protection:</b> Opening the Sequence or Exploration Editor now clears the node graph selection, and node deletion asks for confirmation before removing it.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.2.7-release",
+    "id": "visual-novel-maker-v1.2.10-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.2.7",
-    "content": "<p><b>Visual Novel Maker v1.2.7 updates manual advance behavior when the dialogue box is hidden.</b></p><ul><li>Nodes with <code>Hide dialogue box on this node</code> enabled now wait for manual advance.</li><li>Clicking the VN stage advances the sequence, so GMs can pause on images or scene props for narration without adding Delay actions.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.2.10",
+    "content": "<p><b>Visual Novel Maker v1.2.10 improves editor safety while working on interaction nodes.</b></p><ul><li>Opening the Sequence or Exploration Editor clears the graph selection behind it.</li><li>Deleting a node now asks for confirmation before removal.</li></ul>"
   }
 }
