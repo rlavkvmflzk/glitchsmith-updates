@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.5.5",
+    "latestVersion": "2.5.6",
     "critical": false,
-    "notes": "<b>v2.5.5 Update</b><br>🛡️ <b>PF2e equipment actions:</b> Weapons and shields now expose Raise, Draw, Sheathe, Change Grip, and Drop through Manage buttons in Strike and Inventory menus.",
+    "notes": "<b>v2.5.6 Update</b><br>⭐ <b>Hideable favorite star:</b> System adapters can now hide the favorite star on custom action-menu rows that are not real items, such as ability checks, saving throws, or rest actions.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.5.5-release",
-        "title": "⚔️ Stylish Action HUD v2.5.5",
-        "content": "<p><b>v2.5.5 improves PF2e weapon and shield controls.</b></p><ul><li><b>Shield inventory items:</b> Shields now appear in the PF2e Inventory menu with equipment management controls.</li><li><b>Native equipment actions:</b> Raise, Draw, Sheathe, Change Grip, and Drop now appear in Manage menus when PF2e exposes them for a weapon or shield.</li><li><b>Strike Manage button:</b> Strike rows now include a compact Manage button for equipment actions without duplicating every inline sheet button.</li></ul>"
+        "id": "v2.5.6-release",
+        "title": "⚔️ Stylish Action HUD v2.5.6",
+        "content": "<p><b>v2.5.6 lets system adapters hide the favorite star on non-item action rows.</b></p><ul><li><b>Optional favorite star:</b> Action menu submenu items can set <code>favoritable: false</code> to drop the star and its toggle, while items without the flag keep it.</li><li><b>Cleaner custom menus:</b> Adapters that list rules-based actions such as ability checks, saving throws, or rest actions no longer show a star that cannot become a working quick slot.</li></ul>"
     }
 }
