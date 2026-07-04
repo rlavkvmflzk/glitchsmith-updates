@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.2.10",
-  "notes": "<b>v1.2.10 Update</b><br>🐛 <b>Sequence Editor Selection and Delete Protection:</b> Opening the Sequence or Exploration Editor now clears the node graph selection, and node deletion asks for confirmation before removing it.",
+  "latestVersion": "1.2.11",
+  "notes": "<b>v1.2.11 Update</b><br>🐛 <b>Live Mode Character Reset Permissions:</b> Players can no longer double-click staged NPCs they do not own to reset their standing image position. GMs and owners can still reset characters they control.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.2.10-release",
+    "id": "visual-novel-maker-v1.2.11-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.2.10",
-    "content": "<p><b>Visual Novel Maker v1.2.10 improves editor safety while working on interaction nodes.</b></p><ul><li>Opening the Sequence or Exploration Editor clears the graph selection behind it.</li><li>Deleting a node now asks for confirmation before removal.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.2.11",
+    "content": "<p><b>Visual Novel Maker v1.2.11 fixes a live mode character control permission issue.</b></p><ul><li>Players can no longer double-click staged NPCs they do not own to reset their standing image position.</li><li>GMs and owners can still reset characters they control.</li></ul>"
   }
 }

@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.5.6",
+    "latestVersion": "2.5.7",
     "critical": false,
-    "notes": "<b>v2.5.6 Update</b><br>⭐ <b>Hideable favorite star:</b> System adapters can now hide the favorite star on custom action-menu rows that are not real items, such as ability checks, saving throws, or rest actions.",
+    "notes": "<b>v2.5.7 Update</b><br>⚔️ <b>Actor nameplate rotation:</b> Rotate actor name text from Global HUD Layout or per-actor Internal Offsets.<br>🧩 <b>Adapter custom categories:</b> Custom Action Menu categories can now be appended after third-party adapter categories without duplicating system-backed buttons.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.5.6-release",
-        "title": "⚔️ Stylish Action HUD v2.5.6",
-        "content": "<p><b>v2.5.6 lets system adapters hide the favorite star on non-item action rows.</b></p><ul><li><b>Optional favorite star:</b> Action menu submenu items can set <code>favoritable: false</code> to drop the star and its toggle, while items without the flag keep it.</li><li><b>Cleaner custom menus:</b> Adapters that list rules-based actions such as ability checks, saving throws, or rest actions no longer show a star that cannot become a working quick slot.</li></ul>"
+        "id": "v2.5.7-release",
+        "title": "⚔️ Stylish Action HUD v2.5.7",
+        "content": "<p><b>v2.5.7 adds actor nameplate rotation and improves custom Action Menu category handling for system adapters.</b></p><ul><li><b>Actor nameplate rotation:</b> Use the new <code>Name Rotation</code> field in Global HUD Layout or per-actor Internal Offsets to rotate actor name text.</li><li><b>Adapter custom categories:</b> Custom categories can now appear after third-party adapter categories, while system-backed layout entries are skipped to avoid duplicate buttons.</li></ul>"
     }
 }
