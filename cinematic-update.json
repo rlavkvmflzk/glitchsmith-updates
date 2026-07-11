@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.10.3",
+  "latestVersion": "2.0.0",
   "downloadUrl": "",
-  "notes": "<b>v1.10.3 Hotfix</b><br>🔧 <b>Cut-In Loading:</b> Cut-ins now wait for artwork to load and decode before the animation starts, preventing slow-loading large images from cutting the animation short. Applies to personal cut-ins, All-Out Attacks, and in-element playback.<br><br>📌 Very large images can still delay the first play while clients download them, so resizing oversized art or using WebP is still recommended.",
+  "notes": "<b>v2.0.0 Update</b><br>🎬 <b>Cinematic Effects:</b> Add one of 13 short particle or impact effects to a personal cut-in or All-Out Attack — debris, sparks, embers, confetti, petals, sparkles, lens rain, shockwave, hero flare, film burn, blackout cut, speed lines, or shadow mist. Each has Low/Medium/High strength, shows in the live preview, and works alongside Screen Mood. No image assets or WebGL, and a client setting lets each player skip effects on low-end machines.<br><br>🌙 <b>Screen Moods:</b> Nine screen filters — Night, Dusk, Dawn, Flashback, Vignette, Dream, Old TV, Lightning, Monochrome Film — with an opacity slider, on both personal cut-ins and All-Out Attacks.<br><br>🎨 <b>Blank Theme:</b> A bare-stage theme with no panels or borders, for building your own look from custom layers.<br><br>🖱️ <b>Direct Preview Editing:</b> Drag character, text, and layers in the preview to reposition them; Ctrl + mouse wheel adjusts scale or text size.<br><br>🔔 <b>Notifications:</b> Update notices now use the shared GlitchSmith Library board, so this release needs GlitchSmith Library v0.9.0 or newer.",
   "critical": false,
   "announcement": {
-    "id": "v1.10.3-release",
+    "id": "v2.0.0-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v1.10.3",
-    "content": "<p><b>v1.10.3: Large Image Loading Hotfix</b></p><ul><li><b>Cut-In Loading:</b> Personal cut-ins, All-Out Attacks, and in-element playback now wait until artwork is loaded and decoded before starting the animation.</li><li><b>Large Image Handling:</b> Slow-loading images should no longer produce truncated, half-finished animations. Very large files can still take a moment on first play, so resized or WebP assets are recommended.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v2.0.0",
+    "content": "<p><b>v2.0.0: Cinematic Effects, Screen Moods & Preview Editing</b></p><ul><li><b>Cinematic Effects:</b> Layer one of 13 built-in effects over a personal cut-in or All-Out Attack (debris, sparks, embers, confetti, petals, sparkles, lens rain, shockwave, hero flare, film burn, blackout cut, speed lines, shadow mist), each with Low/Medium/High strength and a live preview. Built from CSS and generated shapes, so no image assets or WebGL. A per-player setting can skip them on low-end machines.</li><li><b>Screen Moods:</b> Nine screen filters (Night, Dusk, Dawn, Flashback, Vignette, Dream, Old TV, Lightning, Monochrome Film) with an opacity slider, on personal cut-ins and All-Out Attacks.</li><li><b>Blank Theme:</b> A minimal no-graphics theme for building a custom look from layers.</li><li><b>Direct Preview Editing:</b> Drag character, text, and layers in the preview to reposition; Ctrl + mouse wheel changes scale or text size.</li><li><b>Requires GlitchSmith Library v0.9.0+:</b> Update notices now go through the shared GlitchSmith Library board instead of the module's own dialog.</li></ul>"
   }
 }
