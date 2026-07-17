@@ -1,0 +1,13 @@
+{
+  "latestVersion": "1.0.0",
+  "downloadUrl": "",
+  "notes": "<b>v1.0.0 Release</b><br>Initial release.",
+  "critical": false,
+  "forceResetId": null,
+  "announcement": {
+    "id": "smartphone-shop-app-v1.0.0-release",
+    "show": true,
+    "title": "Smartphone - Shop App v1.0.0",
+    "content": "<p><b>Smartphone - Shop App v1.0.0 has been released.</b></p>"
+  }
+}

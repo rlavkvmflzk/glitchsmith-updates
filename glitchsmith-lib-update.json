@@ -1,13 +1,13 @@
 {
-  "latestVersion": "0.8.2",
+  "latestVersion": "0.10.0",
   "downloadUrl": "",
-  "notes": "<b>v0.8.2 Update</b><br>- Improved Currency Definitions Embedded Item actor scan results with search, a live count, a filtered empty state, and a scrollable list for actors with many item-based currency candidates.",
+  "notes": "<b>v0.10.0 Update</b><br>- Added shared exchange quotes and execution across virtual wallets and actor-sheet currencies.<br>- Added atomic virtual balance batches for multi-currency changes.<br>- Exchange execution is recalculated by the active GM, serialized with other currency mutations, and rounded without creating extra base-unit value.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "glitchsmith-lib-v0.8.2-currency-definitions-scan-ui",
+    "id": "glitchsmith-lib-v0.10.0-shared-currency-exchange",
     "show": true,
-    "title": "🔔 GlitchSmith Library v0.8.2",
-    "content": "<p><b>GlitchSmith Library v0.8.2 improves the Currency Definitions dialog.</b></p><ul><li>Embedded Item actor scan results now include search, a live result count, and a no-match state.</li><li>The candidate list is capped with its own scrollbar, so actors with many item-based currencies no longer stretch the dialog.</li></ul>"
+    "title": "🔔 GlitchSmith Library v0.10.0",
+    "content": "<p><b>GlitchSmith Library v0.10.0 adds shared currency exchange services for connected modules.</b></p><ul><li>Modules can request exchange quotes and execute conversions across virtual wallets and actor-sheet currencies.</li><li>Virtual balance batches validate and save multiple currency changes in one operation.</li><li>The active GM recalculates exchanges, enforces currency increments, and serializes balance changes to prevent duplicate or invalid results.</li></ul>"
   }
 }
