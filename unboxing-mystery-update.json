@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.5",
+  "latestVersion": "1.4.6",
   "downloadUrl": "",
-  "notes": "<b>v1.4.5 Hotfix</b><br>🐛 <b>Glyph line alignment:</b> Glyph playback now uses the editor's centered square coordinate space, so traced lines and background sigils stay aligned on wide or tall displays.",
+  "notes": "<b>v1.4.6 Update</b><br>✨ <b>GM pity reset:</b> GMs can reset their own pity progress and 50/50 featured guarantee from the gacha screen.<br>🐛 <b>Daggerheart resource bars:</b> Unboxing styles no longer override HP and Stress bars on Daggerheart character sheets.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "unboxing-mystery-v1.4.5-hotfix",
+    "id": "unboxing-mystery-v1.4.6-release",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.4.5",
-    "content": "<p><b>Unboxing the Mystery v1.4.5 fixes glyph line alignment.</b></p><ul><li><b>Glyph line alignment:</b> Glyph playback now uses the same centered square coordinate space as the editor, keeping traced lines and background sigils aligned on non-square displays.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.4.6",
+    "content": "<p><b>Unboxing the Mystery v1.4.6 adds a GM pity reset and fixes Daggerheart resource bars.</b></p><ul><li><b>GM pity reset:</b> GMs can reset their own pity progress and 50/50 featured guarantee for the current gacha pool without affecting other users or pools.</li><li><b>Daggerheart resource bars:</b> Unboxing styles no longer override HP and Stress bars on Daggerheart character sheets.</li></ul>"
   }
 }
