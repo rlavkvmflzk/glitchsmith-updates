@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.2.2",
+  "latestVersion": "1.4.0",
   "downloadUrl": "",
-  "notes": "<b>v1.2.2 Update</b><br>- Fixed repeated Role, Bio, and Stat content in Arcane Grimoire, Stellar Link, and Adventurer's Ledger.<br>- Relic, Linked Module, and Quest cards now appear before the remaining Stats and no longer duplicate the Stat they promote.<br>- Recent Event fallback remains available, while Arcane Grimoire hides an empty Relic card.",
+  "notes": "<b>v1.4.0 Update</b><br>- Added the Organizations &amp; Reputation window for shared organizations, their members and roles, and Actor reputation.<br>- The relationship map has an Organizations view in all six themes.<br>- Organizations can hold suborganizations, a chain of command, a History log, and relationships with each other.<br>- GMs can hide organizations or members from players and arrange the organization map for everyone.<br>- The Manager's preset list can be sorted, and the windowed tracker has a drag grip.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-relationship-tracker-v1.2.2-release",
+    "id": "stylish-relationship-tracker-v1.4.0-release",
     "show": true,
-    "title": "💞 Stylish Relationship Tracker v1.2.2",
-    "content": "<p><b>Stylish Relationship Tracker v1.2.2 fixes repeated Profile and Stat content in three themes.</b></p><ul><li>Arcane Grimoire, Stellar Link, and Adventurer's Ledger no longer repeat the active Relationship's Role as a tag or reuse its Profile Bio for a secondary card.</li><li>The first populated Stat is shown once as the theme's Relic, Linked Module, or Quest card. That card now appears before the remaining Stats.</li><li>Recent Event content still fills the secondary card when no Stat is available, and Arcane Grimoire hides the Relic card when neither source has content.</li></ul>"
+    "title": "💞 Stylish Relationship Tracker v1.4.0",
+    "content": "<p><b>Stylish Relationship Tracker v1.4.0 adds shared organizations and an organization map.</b></p><ul><li>The Organizations &amp; Reputation window keeps each organization's emblem, colour, description, members, and roles. Actor reputation entries can link to an organization and follow its name and emblem.</li><li>Switch the relationship map to Organizations to see members grouped by organization, with labelled lines for the relationships between organizations. Each of the six themes draws its own outlines.</li><li>A member can report to another member, and the map draws that roster as a chart. Suborganizations appear inside their parent's area.</li><li>Organizations have a History tab, and relationships between organizations have their own rank and log. New entries start as GM-only.</li><li>GMs can hide an organization, its member list, or single members from players, and can arrange the organization map for every participant.</li></ul>"
   }
 }
