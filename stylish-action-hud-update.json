@@ -1,13 +1,13 @@
 {
-    "latestVersion": "2.7.2",
+    "latestVersion": "2.7.5",
     "critical": false,
-    "notes": "<b>v2.7.2 Update</b><br><b>Tooltip text contrast:</b> Action Menu tooltip emphasis and PF2e degree-of-success descriptions now follow the selected theme's text color. They remain readable on light themes such as Zenith.",
+    "notes": "<b>v2.7.5 Update</b><br><b>PF2e remaining uses:</b> Action and feat counters now match the character sheet, with correct consumption, editing, and restoration. Innate spells show remaining uses and can be restored after exhaustion.<br><b>Foundry V14 shortcuts:</b> Fixed an error when toggling HUD visibility by keyboard that could interrupt other modules' shortcuts. Scene-control buttons stay in sync.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v2.7.2-release",
-        "title": "⚔️ Stylish Action HUD v2.7.2",
-        "content": "<p><b>v2.7.2 fixes Action Menu tooltip text contrast.</b></p><ul><li>Emphasized text and PF2e degree-of-success descriptions now follow the selected theme's text color, including on light themes such as Zenith.</li></ul>"
+        "id": "v2.7.5-release",
+        "title": "⚔️ Stylish Action HUD v2.7.5",
+        "content": "<p>v2.7.5 fixes PF2e use tracking and HUD visibility shortcuts on Foundry V14.</p><ul><li>Action and feat counters show remaining uses correctly, with one use consumed per activation.</li><li>Editing and restoring limited abilities now matches the character sheet.</li><li>Innate spell counts, exhaustion, and right-click restoration now work correctly.</li><li>HUD visibility shortcuts no longer throw a scene-controls error on Foundry V14, and their control buttons stay in sync.</li></ul>"
     }
 }
