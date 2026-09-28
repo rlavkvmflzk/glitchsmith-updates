@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.0",
+  "latestVersion": "1.4.1",
   "downloadUrl": "",
-  "notes": "<b>v1.4.0 Update</b><br>- Added the Organizations &amp; Reputation window for shared organizations, their members and roles, and Actor reputation.<br>- The relationship map has an Organizations view in all six themes.<br>- Organizations can hold suborganizations, a chain of command, a History log, and relationships with each other.<br>- GMs can hide organizations or members from players and arrange the organization map for everyone.<br>- The Manager's preset list can be sorted, and the windowed tracker has a drag grip.",
+  "notes": "<b>v1.4.1 Update</b><br>- The Manager now renders up to 20 Actor cards at a time in worlds with many Actors.<br>- Searching and paging the Actor list keeps unsaved editor text in place.<br>- Actor and organization changes avoid a second Tracker refresh when the Manager is also open.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-relationship-tracker-v1.4.0-release",
+    "id": "stylish-relationship-tracker-v1.4.1-release",
     "show": true,
-    "title": "💞 Stylish Relationship Tracker v1.4.0",
-    "content": "<p><b>Stylish Relationship Tracker v1.4.0 adds shared organizations and an organization map.</b></p><ul><li>The Organizations &amp; Reputation window keeps each organization's emblem, colour, description, members, and roles. Actor reputation entries can link to an organization and follow its name and emblem.</li><li>Switch the relationship map to Organizations to see members grouped by organization, with labelled lines for the relationships between organizations. Each of the six themes draws its own outlines.</li><li>A member can report to another member, and the map draws that roster as a chart. Suborganizations appear inside their parent's area.</li><li>Organizations have a History tab, and relationships between organizations have their own rank and log. New entries start as GM-only.</li><li>GMs can hide an organization, its member list, or single members from players, and can arrange the organization map for every participant.</li></ul>"
+    "title": "💞 Stylish Relationship Tracker v1.4.1",
+    "content": "<p><b>Stylish Relationship Tracker v1.4.1 improves the Manager in worlds with many Actors.</b></p><ul><li>The Actor list renders up to 20 cards at a time. Searching and paging leave unsaved editor text in place.</li><li>When the Manager and Tracker are both open, Actor and organization updates avoid a second Tracker refresh.</li></ul>"
   }
 }
