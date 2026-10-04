@@ -6,7 +6,7 @@
   "forceResetId": null,
   "announcement": {
     "id": "landing-page-maker-v1.0.0-release",
-    "show": true,
+    "show": false,
     "title": "🎨 New Module: Landing Page Maker v1.0.0",
     "content": "<p><b>Landing Page Maker v1.0.0 is now available in Early Access.</b> Build interactive campaign pages inside Foundry VTT with 17 editable templates or your own artwork.</p><p><a href=\"https://youtu.be/2MJwNVpY2zU\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Watch the feature showcase on YouTube</b></a><br><a href=\"https://www.patreon.com/glitchsmith/posts/early-access-v1-171370541\" target=\"_blank\" rel=\"noopener noreferrer\">Release details and access on Patreon</a></p><ul><li>Edit directly on the Scene with layers, groups, image framing, alignment, undo and redo.</li><li>Assign Actors by drag-and-drop and connect your designs to character data, mission boards, glossaries, and session records.</li><li>Present images and captions in Theater, or surround playable maps with a shared editable frame.</li><li>Save your own blocks and themes for reuse.</li></ul>"
   }
