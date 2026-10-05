@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.1",
+  "latestVersion": "1.0.3",
   "downloadUrl": "",
-  "notes": "<b>v1.0.1 Update</b><br>- GlitchSmith Library 0.12.0 or later is now declared as a required dependency.<br>- If you installed v1.0.0, update Landing Page Maker and make sure GlitchSmith Library is installed and enabled.",
+  "notes": "<b>v1.0.3 Update</b><br>- Choose whether to keep contents when deleting a page section or layer folder.<br>- Selecting a grouped layer highlights its members across folders, including collapsed folders.<br>- Supplied labels now follow Foundry's interface language instead of showing Korean and English together.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.0-release",
-    "show": false,
-    "title": "🎨 New Module: Landing Page Maker v1.0.0",
-    "content": "<p><b>Landing Page Maker v1.0.0 is now available in Early Access.</b> Build interactive campaign pages inside Foundry VTT with 17 editable templates or your own artwork.</p><p><a href=\"https://youtu.be/2MJwNVpY2zU\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Watch the feature showcase on YouTube</b></a><br><a href=\"https://www.patreon.com/glitchsmith/posts/early-access-v1-171370541\" target=\"_blank\" rel=\"noopener noreferrer\">Release details and access on Patreon</a></p><ul><li>Edit directly on the Scene with layers, groups, image framing, alignment, undo and redo.</li><li>Assign Actors by drag-and-drop and connect your designs to character data, mission boards, glossaries, and session records.</li><li>Present images and captions in Theater, or surround playable maps with a shared editable frame.</li><li>Save your own blocks and themes for reuse.</li></ul>"
+    "id": "landing-page-maker-v1.0.3-release",
+    "show": true,
+    "title": "🎨 Landing Page Maker v1.0.3",
+    "content": "<p><b>Landing Page Maker v1.0.3</b></p><ul><li>Choose whether to keep contents when deleting a page section or layer folder. Available in both editors, with undo support.</li><li>Selecting a grouped layer highlights its members across folders in both editors. Collapsed folders containing members are highlighted too.</li><li>Supplied setting names and labels now follow Foundry's interface language. Existing pages and reusable parts also get the correction, while custom names and saved values are preserved.</li></ul>"
   }
 }
