@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.6",
+  "latestVersion": "2.0.7",
   "downloadUrl": "",
-  "notes": "<b>v2.0.6 Update</b><br>Fixed a black readiness screen when an All-Out voting macro used the Blackout Cut effect. Character readiness images now remain visible, and the effect starts when the cut-in plays.",
+  "notes": "<b>v2.0.7 Update</b><br>Fixed Cleave subtitles becoming blurry while the cut-in was still on screen. Subtitles now stay sharp after the entrance flicker until the fade-out begins.",
   "critical": false,
   "announcement": {
-    "id": "v2.0.6-release",
+    "id": "v2.0.7-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v2.0.6",
-    "content": "<p><b>v2.0.6: All-Out Readiness Fix</b></p><ul><li>All-Out voting macros using Blackout Cut now show character readiness images while players join. The effect starts when the cut-in plays.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v2.0.7",
+    "content": "<p><b>v2.0.7: Cleave Subtitle Fix</b></p><ul><li>Cleave subtitles now stay sharp after the entrance flicker until the fade-out begins.</li></ul>"
   }
 }
