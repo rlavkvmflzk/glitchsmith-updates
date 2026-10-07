@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.3",
+  "latestVersion": "1.0.4",
   "downloadUrl": "",
-  "notes": "<b>v1.0.3 Update</b><br>- Choose whether to keep contents when deleting a page section or layer folder.<br>- Selecting a grouped layer highlights its members across folders, including collapsed folders.<br>- Supplied labels now follow Foundry's interface language instead of showing Korean and English together.",
+  "notes": "<b>v1.0.4 Update</b><br>- Removed obsolete alpha-era part files, reducing installed part data from 129.6 MB to 25.2 MB.<br>- Old individual theme fragments are no longer available through Favorites or Recent. Existing saved elements keep their content and styles.<br>- Development tools, test files, internal documentation, and capture work are excluded from release packages by default.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.3-release",
+    "id": "landing-page-maker-v1.0.4-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.0.3",
-    "content": "<p><b>Landing Page Maker v1.0.3</b></p><ul><li>Choose whether to keep contents when deleting a page section or layer folder. Available in both editors, with undo support.</li><li>Selecting a grouped layer highlights its members across folders in both editors. Collapsed folders containing members are highlighted too.</li><li>Supplied setting names and labels now follow Foundry's interface language. Existing pages and reusable parts also get the correction, while custom names and saved values are preserved.</li></ul>"
+    "title": "🎨 Landing Page Maker v1.0.4",
+    "content": "<p><b>Landing Page Maker v1.0.4</b></p><ul><li>Removed obsolete alpha-era part files and indexes. Installed part data is reduced from 129.6 MB to 25.2 MB, with the current catalog retained.</li><li>Retired individual theme fragments can no longer be inserted from old Favorites or Recent entries. Elements already saved in pages, My Assets, and reusable blocks retain their stored content and styles.</li><li>Release packages now exclude development tools, test fixtures, temporary files, internal documentation, and capture work by default.</li></ul>"
   }
 }
