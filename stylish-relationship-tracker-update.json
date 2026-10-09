@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.1",
+  "latestVersion": "1.4.2",
   "downloadUrl": "",
-  "notes": "<b>v1.4.1 Update</b><br>- The Manager now renders up to 20 Actor cards at a time in worlds with many Actors.<br>- Searching and paging the Actor list keeps unsaved editor text in place.<br>- Actor and organization changes avoid a second Tracker refresh when the Manager is also open.",
+  "notes": "<b>v1.4.2 Update</b><br>- Fixed stuttering caused by HP updates while the Quick Panel was open, particularly in worlds with many Actors.<br>- Gift inventory changes update the Quick Panel without reloading relationship data.<br>- Quick Panel refreshes preserve the scroll position for the same owner and target.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-relationship-tracker-v1.4.1-release",
+    "id": "stylish-relationship-tracker-v1.4.2-release",
     "show": true,
-    "title": "💞 Stylish Relationship Tracker v1.4.1",
-    "content": "<p><b>Stylish Relationship Tracker v1.4.1 improves the Manager in worlds with many Actors.</b></p><ul><li>The Actor list renders up to 20 cards at a time. Searching and paging leave unsaved editor text in place.</li><li>When the Manager and Tracker are both open, Actor and organization updates avoid a second Tracker refresh.</li></ul>"
+    "title": "💞 Stylish Relationship Tracker v1.4.2",
+    "content": "<p>Fixed stuttering caused by HP updates while the Quick Panel was open, particularly in worlds with many Actors.</p><ul><li>HP changes no longer reload the panel's relationship data.</li><li>Gift inventory changes update the item list without reloading relationship data.</li><li>Refreshes keep the scroll position while viewing the same owner and target.</li></ul>"
   }
 }

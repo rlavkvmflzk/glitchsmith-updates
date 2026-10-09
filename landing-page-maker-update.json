@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.5",
+  "latestVersion": "1.0.6",
   "downloadUrl": "",
-  "notes": "<b>v1.0.5 Update</b><br>- RollTable actions now offer Chat log or Private notification (only you). Chat is the default, including for existing actions without this setting, and follows normal table draw behavior and roll visibility. Private notifications do not mark results as drawn.<br>- Reduced repeated Cast updates and unnecessary text-fitting and border-size calculations for hidden elements and section changes.<br>- Players without Actor sheet access now see connected portraits and Cast artwork with the configured framing. Sheet permissions are unchanged.",
+  "notes": "<b>v1.0.6 Update</b><br>- Fixed severe FPS drops on pages with large collections when participants adjusted shared Page Variables, such as counters. These changes could slow down other viewers even while they were idle.<br>- Collection displays avoid unnecessary refreshes, batch rapid variable updates, and apply pending changes when hidden sections or tabs are opened.<br>- While viewing a page, sections are built when first opened, reducing initial work on large pages. Returning to a section retains its reading position and selection.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.5-release",
+    "id": "landing-page-maker-v1.0.6-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.0.5",
-    "content": "<p><b>Landing Page Maker v1.0.5</b></p><ul><li>Choose Chat log or Private notification (only you) for RollTable actions in either editor. Chat is the default, including for existing actions without this setting, and follows normal table draw behavior and roll visibility. Private notifications do not mark results as drawn.</li><li>Cast updates keep unchanged content in place, and hidden sections receive the latest Actor values when opened.</li><li>Reduced unnecessary text-fitting and border-size calculations for hidden elements and section changes.</li><li>Connected portraits and Cast artwork now display with the configured framing for players without Actor sheet access. Sheet permissions and permissions for other linked Actor values are unchanged.</li></ul>"
+    "title": "🎨 Landing Page Maker v1.0.6",
+    "content": "<p><b>Landing Page Maker v1.0.6: Performance Hotfix</b></p><ul><li>Fixed severe FPS drops on pages with large collections when participants adjusted shared Page Variables, such as counters. These changes could slow down other viewers even while they were idle.</li><li>Collection displays avoid unnecessary refreshes, batch rapid variable updates, and apply pending changes when hidden sections or tabs are opened.</li><li>While viewing a page, sections are built when first opened, reducing initial work on large pages. Returning to a section retains its reading position and selection.</li></ul>"
   }
 }
