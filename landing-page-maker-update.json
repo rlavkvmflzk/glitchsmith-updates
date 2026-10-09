@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.4",
+  "latestVersion": "1.0.5",
   "downloadUrl": "",
-  "notes": "<b>v1.0.4 Update</b><br>- Removed obsolete alpha-era part files, reducing installed part data from 129.6 MB to 25.2 MB.<br>- Old individual theme fragments are no longer available through Favorites or Recent. Existing saved elements keep their content and styles.<br>- Identical font files and part previews now share storage without changing font rendering or image quality.<br>- Added missing previews for Theater and Obsidian Atlas parts and removed an obsolete preview entry.",
+  "notes": "<b>v1.0.5 Update</b><br>- RollTable actions now offer Chat log or Private notification (only you). Chat is the default, including for existing actions without this setting, and follows normal table draw behavior and roll visibility. Private notifications do not mark results as drawn.<br>- Reduced repeated Cast updates and unnecessary text-fitting and border-size calculations for hidden elements and section changes.<br>- Players without Actor sheet access now see connected portraits and Cast artwork with the configured framing. Sheet permissions are unchanged.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.4-release",
+    "id": "landing-page-maker-v1.0.5-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.0.4",
-    "content": "<p><b>Landing Page Maker v1.0.4</b></p><ul><li>Removed obsolete alpha-era part files and indexes. Installed part data is reduced from 129.6 MB to 25.2 MB, with the current catalog retained.</li><li>Retired individual theme fragments can no longer be inserted from old Favorites or Recent entries. Elements already saved in pages, My Assets, and reusable blocks retain their stored content and styles.</li><li>Identical font files and part previews now share storage without changing font rendering or image quality.</li><li>Added missing previews for Theater and Obsidian Atlas parts and removed an obsolete preview entry.</li></ul>"
+    "title": "🎨 Landing Page Maker v1.0.5",
+    "content": "<p><b>Landing Page Maker v1.0.5</b></p><ul><li>Choose Chat log or Private notification (only you) for RollTable actions in either editor. Chat is the default, including for existing actions without this setting, and follows normal table draw behavior and roll visibility. Private notifications do not mark results as drawn.</li><li>Cast updates keep unchanged content in place, and hidden sections receive the latest Actor values when opened.</li><li>Reduced unnecessary text-fitting and border-size calculations for hidden elements and section changes.</li><li>Connected portraits and Cast artwork now display with the configured framing for players without Actor sheet access. Sheet permissions and permissions for other linked Actor values are unchanged.</li></ul>"
   }
 }
