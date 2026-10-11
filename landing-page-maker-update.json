@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.6",
+  "latestVersion": "1.0.7",
   "downloadUrl": "",
-  "notes": "<b>v1.0.6 Update</b><br>- Fixed severe FPS drops on pages with large collections when participants adjusted shared Page Variables, such as counters. These changes could slow down other viewers even while they were idle.<br>- Collection displays avoid unnecessary refreshes, batch rapid variable updates, and apply pending changes when hidden sections or tabs are opened.<br>- While viewing a page, sections are built when first opened, reducing initial work on large pages. Returning to a section retains its reading position and selection.",
+  "notes": "<b>v1.0.7 Update</b><br>- Isekai Returners now supports up to six Cast roles across its lobby, Party Roster, Theater of the Mind, and Guild Rules. Added roles receive matching elements; removing roles closes gaps and renumbers the remaining members.<br>- Added English text, example records, character names, and part previews for Isekai Returners. Its Language variable offers Auto, Korean, and English.<br>- The Guild Rules signature count now shows how many members have checked their agreement box.<br>- Fixed overlaps between the first scene thumbnail and SCENE label, and between the Open sheet tab and rank coin.<br><br>Existing pages can add roles after updating and retain their saved text and layout. Create a new page with Use this template to get the English text, signature count, and overlap fixes.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.6-release",
+    "id": "landing-page-maker-v1.0.7-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.0.6",
-    "content": "<p><b>Landing Page Maker v1.0.6: Performance Hotfix</b></p><ul><li>Fixed severe FPS drops on pages with large collections when participants adjusted shared Page Variables, such as counters. These changes could slow down other viewers even while they were idle.</li><li>Collection displays avoid unnecessary refreshes, batch rapid variable updates, and apply pending changes when hidden sections or tabs are opened.</li><li>While viewing a page, sections are built when first opened, reducing initial work on large pages. Returning to a section retains its reading position and selection.</li></ul>"
+    "title": "🎨 Landing Page Maker v1.0.7",
+    "content": "<p><b>Landing Page Maker v1.0.7: Isekai Returners Update</b></p><ul><li>Isekai Returners now supports up to six Cast roles across its lobby, Party Roster, Theater of the Mind, and Guild Rules. Added roles receive matching elements; removing roles closes gaps and renumbers the remaining members.</li><li>Added English text, example records, character names, and part previews for Isekai Returners. Its Language variable offers Auto, Korean, and English.</li><li>The Guild Rules signature count now shows how many members have checked their agreement box.</li><li>Fixed overlaps between the first scene thumbnail and SCENE label, and between the Open sheet tab and rank coin.</li></ul><p>Existing pages can add roles after updating and retain their saved text and layout. Create a new page with <b>Use this template</b> to get the English text, signature count, and overlap fixes.</p>"
   }
 }

@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.1",
-  "notes": "<b>v1.4.1 Update</b><br>📦 <b>Story Asset Preloading:</b> Images, video, and audio are prepared on participating clients before playback, including JUMP targets, private Stories, Live Director launches, rehearsal broadcasts, and late joins.<br>🖱️ <b>Manual Player Preload:</b> GMs can prepare a Story from the Story editor or the cloud button beside Run Interaction in the Live Director. The GM and connected players cache the media without starting playback, and failed assets or player timeouts are reported.<br>🐛 <b>Story Dropdowns:</b> Journal and start-node options remain readable when the Run Interaction menus are open.",
+  "latestVersion": "1.4.2",
+  "notes": "<b>v1.4.2 Update</b><br>🐛 <b>Live Mode Chat Cards:</b> Spell and item cards no longer appear as dialogue, including descriptions posted without a roll. Queued expressions wait for the next dialogue line.<br>🔎 <b>Background Search:</b> Search by location or variant name; matching groups open automatically.<br>🐛 <b>Background Selection:</b> Filtered results apply the correct background and preserve the Scene tab's scroll position.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.4.1-release",
+    "id": "visual-novel-maker-v1.4.2-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.4.1",
-    "content": "<p><b>Visual Novel Maker v1.4.1 prepares Story media before playback and adds manual preload controls for GMs.</b></p><ul><li>Images, video, audio, and media in linked JUMP Stories are loaded on participating clients before the Story starts.</li><li>Private Stories, Live Director Stories, rehearsal broadcasts, and late-join synchronization use the same preload process.</li><li>Prepare a Story from its editor or use the cloud button beside Run Interaction in the Live Director. Both controls cache media on the GM and connected players without starting playback.</li><li>If an asset fails or a player times out, playback continues and the missing asset is retried when needed.</li><li>Journal and start-node options remain readable when the Run Interaction dropdowns are open.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.4.2",
+    "content": "<p><b>Visual Novel Maker v1.4.2 fixes chat cards appearing as dialogue and improves background search.</b></p><ul><li>Spell and item cards, including DnD5e and PF2e descriptions posted without a roll, stay out of the dialogue box and Dialogue Backlog. Queued expressions remain ready for the next dialogue line.</li><li>Live Director background search finds location and variant names. Matching groups open automatically, and a variant-name match shows only matching variants.</li><li>Filtered results now apply the correct background. Searching and toggling groups preserve the Scene tab's scroll position.</li></ul>"
   }
 }
