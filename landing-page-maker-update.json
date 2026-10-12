@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.7",
+  "latestVersion": "1.1.0",
   "downloadUrl": "",
-  "notes": "<b>v1.0.7 Update</b><br>- Isekai Returners now supports up to six Cast roles across its lobby, Party Roster, Theater of the Mind, and Guild Rules. Added roles receive matching elements; removing roles closes gaps and renumbers the remaining members.<br>- Added English text, example records, character names, and part previews for Isekai Returners. Its Language variable offers Auto, Korean, and English.<br>- The Guild Rules signature count now shows how many members have checked their agreement box.<br>- Fixed overlaps between the first scene thumbnail and SCENE label, and between the Open sheet tab and rank coin.<br><br>Existing pages can add roles after updating and retain their saved text and layout. Create a new page with Use this template to get the English text, signature count, and overlap fixes.",
+  "notes": "<b>v1.1.0 Update</b><br>- Duplicate a section with its elements, groups, and layer folders from the section toolbar in either editor. Shared elements remain shared, and undo removes the copy in one step.<br>- Use section transitions from Twilight Exposition, Silent Orpheus, Moonless Archive, Signal Archive, and Hangar Seven on any page without changing its theme.<br>- Customize transition timing and colors, with image, decoration, and text controls for supported effects. Preview changes, reset a design, and apply settings to the page default or an individual button.<br>- Outside Scene Backgrounds now play WebM and other supported videos muted and on loop. Adjust fit, focus, blur, and dim without restarting playback.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.7-release",
+    "id": "landing-page-maker-v1.1.0-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.0.7",
-    "content": "<p><b>Landing Page Maker v1.0.7: Isekai Returners Update</b></p><ul><li>Isekai Returners now supports up to six Cast roles across its lobby, Party Roster, Theater of the Mind, and Guild Rules. Added roles receive matching elements; removing roles closes gaps and renumbers the remaining members.</li><li>Added English text, example records, character names, and part previews for Isekai Returners. Its Language variable offers Auto, Korean, and English.</li><li>The Guild Rules signature count now shows how many members have checked their agreement box.</li><li>Fixed overlaps between the first scene thumbnail and SCENE label, and between the Open sheet tab and rank coin.</li></ul><p>Existing pages can add roles after updating and retain their saved text and layout. Create a new page with <b>Use this template</b> to get the English text, signature count, and overlap fixes.</p>"
+    "title": "🎨 Landing Page Maker v1.1.0",
+    "content": "<p><b>Landing Page Maker v1.1.0</b></p><ul><li>Duplicate a section with its elements, groups, and layer folders from the section toolbar in either editor. Shared elements remain shared, and undo removes the copy in one step.</li><li>Use section transitions from Twilight Exposition, Silent Orpheus, Moonless Archive, Signal Archive, and Hangar Seven on any page without changing its theme.</li><li>Customize transition timing and colors, with image, decoration, and text controls for supported effects. Preview changes, reset a design, and apply settings to the page default or an individual button.</li><li>Outside Scene Backgrounds now play WebM and other supported videos muted and on loop. Adjust fit, focus, blur, and dim without restarting playback.</li></ul>"
   }
 }
