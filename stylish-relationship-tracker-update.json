@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.4.2",
+  "latestVersion": "1.5.1",
   "downloadUrl": "",
-  "notes": "<b>v1.4.2 Update</b><br>- Fixed stuttering caused by HP updates while the Quick Panel was open, particularly in worlds with many Actors.<br>- Gift inventory changes update the Quick Panel without reloading relationship data.<br>- Quick Panel refreshes preserve the scroll position for the same owner and target.",
+  "notes": "<b>v1.5.1 Update</b><br>- Add global or personal status tags such as Deceased, Missing, Injured, and Imprisoned. GMs manage global statuses and customize types and portrait effects; permitted players edit their own relationship's personal statuses.<br>- Edit personal records, ranks, and progress without a connected GM, including party-shared progress. Rank Macros and Item rewards wait for the GM, with pending status shown in the Manager.<br>- Drag Items onto rank reward rows for automatic rewards when each rank is first reached after setup.<br>- Add Foundry document links to relationship and organization text. GMs can also choose Gift reactions and edit dialogue before approval.<br>- Improved Adventurer's Ledger hover performance and fixed Gift approval, typing, map portraits, and closing the Manager.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-relationship-tracker-v1.4.2-release",
+    "id": "stylish-relationship-tracker-v1.5.1-release",
     "show": true,
-    "title": "💞 Stylish Relationship Tracker v1.4.2",
-    "content": "<p>Fixed stuttering caused by HP updates while the Quick Panel was open, particularly in worlds with many Actors.</p><ul><li>HP changes no longer reload the panel's relationship data.</li><li>Gift inventory changes update the item list without reloading relationship data.</li><li>Refreshes keep the scroll position while viewing the same owner and target.</li></ul>"
+    "title": "💞 Stylish Relationship Tracker v1.5.1",
+    "content": "<p><b>Status Tags and Player Editing</b></p><ul><li>Set global and personal status tags in Relationship Manager > General. GMs control global statuses; personal selections stay on each character's relationship, even when progress is shared. Deceased, Missing, Injured, and Imprisoned are included, with custom types and portrait effects.</li><li>Players with the required permission can edit personal records, ranks, progress, and personal statuses without a GM while an owner of their Actor is online. Party-shared progress is also supported after a GM connects once with this version. Changes remain saved when other members are offline.</li><li>Rank Macros and earned Item rewards wait for the GM. Save notifications and the Manager show what is pending. Processed changes and rewards are not repeated on reconnect.</li><li>Drop Items onto rank reward rows in Progress. Each reward is granted once when its rank is first reached after setup; party members have separate delivery records.</li><li>Drop Foundry documents into supported relationship and organization text to create links. On Gift approval, GMs can choose the reaction and edit its dialogue.</li><li>Improved Adventurer's Ledger hover performance. Fixed blocked Gift approvals, typing during reactions, oversized map portraits, and an error when closing the Manager.</li></ul>"
   }
 }

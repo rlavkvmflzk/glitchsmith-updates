@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.7",
+  "latestVersion": "2.0.8",
   "downloadUrl": "",
-  "notes": "<b>v2.0.7 Update</b><br>Fixed Cleave subtitles becoming blurry while the cut-in was still on screen. Subtitles now stay sharp after the entrance flicker until the fade-out begins.",
+  "notes": "<b>v2.0.8 Update</b><br>Fixed On Use cut-ins not playing with D&D5e 6.x chat cards, including with Midi-QOL enabled. Older chat cards remain supported.<br>Fixed Region-based template triggers and missing ability check keywords. Cinematic Inspector now displays item names and descriptions from D&D5e 6.x cards.<br>Fixed critical hits running item rules twice and Midi-QOL skipping item conditions on associated checks and saves.",
   "critical": false,
   "announcement": {
-    "id": "v2.0.7-release",
+    "id": "v2.0.8-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v2.0.7",
-    "content": "<p><b>v2.0.7: Cleave Subtitle Fix</b></p><ul><li>Cleave subtitles now stay sharp after the entrance flicker until the fade-out begins.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v2.0.8",
+    "content": "<p><b>v2.0.8: D&D5e 6 Compatibility</b></p><ul><li>Fixed On Use cut-ins not playing with D&D5e 6.x chat cards, including with Midi-QOL enabled. Older chat cards remain supported.</li><li>Template triggers now recognize Region-based templates, including older templates converted by Foundry V14.</li><li>Ability check titles now work with roll-keyword rules. Cinematic Inspector displays item names and descriptions from D&D5e 6.x cards.</li><li>Critical hits no longer run item keyword, dice, and formula rules twice, preventing duplicate cut-ins and macros.</li><li>With Midi-QOL enabled, associated check and save messages now apply their item dice, keyword, and formula conditions.</li></ul>"
   }
 }
