@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.2",
-  "notes": "<b>v1.4.2 Update</b><br>🐛 <b>Live Mode Chat Cards:</b> Spell and item cards no longer appear as dialogue, including descriptions posted without a roll. Queued expressions wait for the next dialogue line.<br>🔎 <b>Background Search:</b> Search by location or variant name; matching groups open automatically.<br>🐛 <b>Background Selection:</b> Filtered results apply the correct background and preserve the Scene tab's scroll position.",
+  "latestVersion": "1.4.3",
+  "notes": "<b>v1.4.3 Update</b><br>🐛 <b>Live Mode Close Button:</b> Fixed the X button above the dialogue box not responding. GMs can end the session directly or approve a player's close request.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.4.2-release",
+    "id": "visual-novel-maker-v1.4.3-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.4.2",
-    "content": "<p><b>Visual Novel Maker v1.4.2 fixes chat cards appearing as dialogue and improves background search.</b></p><ul><li>Spell and item cards, including DnD5e and PF2e descriptions posted without a roll, stay out of the dialogue box and Dialogue Backlog. Queued expressions remain ready for the next dialogue line.</li><li>Live Director background search finds location and variant names. Matching groups open automatically, and a variant-name match shows only matching variants.</li><li>Filtered results now apply the correct background. Searching and toggling groups preserve the Scene tab's scroll position.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.4.3",
+    "content": "<p>Visual Novel Maker v1.4.3 fixes the close button in Live Mode.</p><ul><li>The X button above the dialogue box now works. GMs can end the session directly or approve a player's close request.</li></ul>"
   }
 }
