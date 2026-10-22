@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.3",
-  "notes": "<b>v1.4.3 Update</b><br>🐛 <b>Live Mode Close Button:</b> Fixed the X button above the dialogue box not responding. GMs can end the session directly or approve a player's close request.",
+  "latestVersion": "1.4.4",
+  "notes": "<b>v1.4.4 Update</b><br>🐛 <b>Game Paused Indicator:</b> Fixed Foundry's Game Paused indicator being hidden behind VNM backgrounds. The indicator now stays visible above the VNM overlay while the game is paused.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.4.3-release",
+    "id": "visual-novel-maker-v1.4.4-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.4.3",
-    "content": "<p>Visual Novel Maker v1.4.3 fixes the close button in Live Mode.</p><ul><li>The X button above the dialogue box now works. GMs can end the session directly or approve a player's close request.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.4.4",
+    "content": "<p>Visual Novel Maker v1.4.4 fixes the Game Paused indicator being hidden behind VNM backgrounds.</p><ul><li>The indicator now stays visible above the VNM overlay while the game is paused.</li></ul>"
   }
 }
