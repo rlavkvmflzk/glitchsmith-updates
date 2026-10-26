@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.5.0",
+  "latestVersion": "1.6.0",
   "downloadUrl": "",
-  "notes": "<b>v1.5.0 Update</b><br>🔗 Build ordered Mystery Chains and supervise them with the Mystery Director.<br>🎯 Direct reveals to a solver and viewers, or pause unresolved play without exposing unrevealed content.<br>📦 Export and import Mystery Kit ZIP packages with selected linked documents, gacha pools, and user-data media. External dependencies remain external.<br>🃏 Run shared or per-player finite reward decks with stock controls, refill schedules, and banner windows.<br>🎲 Convert duplicate rewards, import RollTable Items, hide pools from the toolbar, and run Tile outcome macros.<br>🐛 Fixed bonus pulls, legacy Journal targeting, spectator synchronization, MATT already-revealed routing, and empty Tile image field preservation.<br>🔧 Requires GlitchSmith Library 0.13.0 or later.",
+  "notes": "<b>v1.6.0 Update</b><br>🔑 Enable Open with key to let characters holding the required item open Journals, Tiles, Doors, and Item Piles containers without playing the puzzle.<br>Tile roll checks are skipped, while reveals, rewards, and success macros still run. Consume Key also applies.<br>The option is off by default. Mystery Chains and gacha are excluded.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "unboxing-mystery-v1.5.0-release",
+    "id": "unboxing-mystery-v1.6.0-release",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.5.0",
-    "content": "<p>Unboxing the Mystery v1.5.0 adds Mystery Chains, Mystery Kit packages, and finite reward decks.</p><ul><li>Connect existing puzzle modes into an ordered Mystery Chain, then supervise progress, hints, pauses, reassignment, and completion from the Mystery Director.</li><li>Assign a solver and viewers for directed reveals, or pause unresolved play without deleting settings or progress while unrevealed content stays sealed.</li><li>Export configured Journal pages or Items as Mystery Kit ZIP packages with selected linked documents, gacha pools, and user-data media. External dependencies remain external.</li><li>Run shared or per-player finite reward decks with stock management, scheduled refills, banner windows, and real-time or game-time clocks.</li><li>Convert duplicate rewards, import RollTable Items, hide pools from the default toolbar, preserve pool settings during transfer, and run Tile success or failure macros.</li><li>This release also fixes bonus pulls, legacy Journal targeting, Rune Matching and Circuit Maze spectator synchronization, MATT already-revealed routing, and empty Tile image field preservation.</li></ul><p>GlitchSmith Library 0.13.0 or later is required.</p>"
+    "title": "🎁 Unboxing the Mystery v1.6.0",
+    "content": "<p>Unboxing the Mystery v1.6.0 adds Open with key for characters holding the required item.</p><ul><li>Enable it on Journals, Tiles, Doors, or Item Piles containers to open them without playing the puzzle.</li><li>Key unlocks skip preceding Tile roll checks and keep normal reveals, rewards, and success macros. Consume Key determines whether the item is removed after a successful unlock.</li><li>The option is off by default and supports individual puzzle modes. Mystery Chains and gacha are excluded.</li></ul>"
   }
 }
