@@ -1,13 +1,13 @@
 {
-  "latestVersion": "0.12.0",
+  "latestVersion": "0.13.1",
   "downloadUrl": "",
-  "notes": "<b>v0.12.0 Update</b><br>- Added shared Actor Metrics support for D&D5e, PF2e, and generic systems.<br>- This version is required by the latest Stylish Action HUD stat tracking.<br>- Update GlitchSmith Library to restore tracked attributes and the full PF2e suggested value-path list, then reload your world.",
+  "notes": "<b>v0.13.1 Update</b><br>- GMs receive one notice when installed modules require a newer GlitchSmith Library, including modules disabled because of the version mismatch.<br>- The shared clock reads custom day, hour, and minute lengths from supported calendars, including external calendars read through Smartphone Widget.<br>- Clock subscribers refresh after calendar changes, and duration calculations use the active calendar's time units.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.0.0-release",
+    "id": "glitchsmith-lib-v0.13.1-release",
     "show": true,
-    "title": "🎨 New Module: Landing Page Maker v1.0.0",
-    "content": "<p><b>Landing Page Maker v1.0.0 is now available in Early Access.</b> Build interactive campaign pages inside Foundry VTT with 17 editable templates or your own artwork.</p><p><a href=\"https://youtu.be/2MJwNVpY2zU\" target=\"_blank\" rel=\"noopener noreferrer\"><b>Watch the feature showcase on YouTube</b></a><br><a href=\"https://www.patreon.com/glitchsmith/posts/early-access-v1-171370541\" target=\"_blank\" rel=\"noopener noreferrer\">Release details and access on Patreon</a></p><ul><li>Edit directly on the Scene with layers, groups, image framing, alignment, undo and redo.</li><li>Assign Actors by drag-and-drop and connect your designs to character data, mission boards, glossaries, and session records.</li><li>Present images and captions in Theater, or surround playable maps with a shared editable frame.</li><li>Save your own blocks and themes for reuse.</li></ul>"
+    "title": "📚 GlitchSmith Library v0.13.1",
+    "content": "<p>GlitchSmith Library v0.13.1 fixes custom-calendar time handling and adds minimum-version guidance.</p><ul><li>When a world opens, GMs see the installed library version, each affected module's minimum requirement, and update instructions. The check includes modules disabled by a version mismatch and works offline.</li><li>The shared clock reads custom time units from Simple Calendar, Simple Calendar Reborn, Calendaria, Seasons &amp; Stars, and Foundry calendars, including calendars used by Simple Timekeeping. External calendars keep those units when read through Smartphone Widget.</li><li>Clock subscribers refresh when supported calendars are edited or switched, including Simple Calendar changes received from another GM.</li><li>Duration and remaining-time calculations use the active calendar's time units.</li></ul>"
   }
 }
