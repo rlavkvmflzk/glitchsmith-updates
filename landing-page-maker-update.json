@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.1",
+  "latestVersion": "1.1.4",
   "downloadUrl": "",
-  "notes": "<b>v1.1.1 Update</b><br>- Enter formulas such as {value} * 5 in Actor value connections in either editor. Preview the result and see expression errors without changing the Actor sheet.<br>- Imported parts keep their frames, decorations, meter fills, and internal layout on pages using other themes, including grouped and repeated parts. This fixes health bars disappearing on Ironpass Expedition pages.<br>- Imported text keeps its intended wrapping. Older parts with incomplete font settings use their source theme's font defaults.<br>- The Use role value checkbox now sits beside its label in both editors.",
+  "notes": "<b>v1.1.4 Update</b><br>- Reduced click delays in collection displays, including Signal Archive's Cases, Index, and Feed screens. Region sizing, scrollbar updates, and font checks now run in batches to avoid repeated layout work.<br>- Theme styles now activate only for themes used by open pages, their parts, and transition previews. Mixed-theme pages and both editors keep their existing appearance and animations.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.1.1-release",
+    "id": "landing-page-maker-v1.1.4-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.1.1",
-    "content": "<p><b>Landing Page Maker v1.1.1</b></p><ul><li>Enter formulas such as {value} * 5 in Actor value connections in either editor. Preview the result and see expression errors without changing the Actor sheet.</li><li>Imported parts keep their frames, decorations, meter fills, and internal layout on pages using other themes, including grouped and repeated parts. This fixes health bars disappearing on Ironpass Expedition pages.</li><li>Imported text keeps its intended wrapping. Older parts with incomplete font settings use their source theme's font defaults.</li><li>The Use role value checkbox now sits beside its label in both editors.</li></ul>"
+    "title": "🎨 Landing Page Maker v1.1.4",
+    "content": "<p><b>Landing Page Maker v1.1.4</b></p><ul><li>Reduced click delays in collection displays, including Signal Archive's Cases, Index, and Feed screens. Region sizing, scrollbar updates, and font checks now run in batches to avoid repeated layout work.</li><li>Theme styles now activate only for themes used by open pages, their parts, and transition previews. Mixed-theme pages and both editors keep their existing appearance and animations.</li></ul>"
   }
 }
