@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.4.4",
-  "notes": "<b>v1.4.4 Update</b><br>🐛 <b>Game Paused Indicator:</b> Fixed Foundry's Game Paused indicator being hidden behind VNM backgrounds. The indicator now stays visible above the VNM overlay while the game is paused.",
+  "latestVersion": "1.5.0",
+  "notes": "<b>v1.5.0 Update</b><br>Clickable scene markers, resource-based character images, reusable dialogue styles, saved title cards, and expanded Live Director controls.<br>Requires GlitchSmith Library 0.13.1 or later.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.4.4-release",
+    "id": "visual-novel-maker-v1.5.0-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.4.4",
-    "content": "<p>Visual Novel Maker v1.4.4 fixes the Game Paused indicator being hidden behind VNM backgrounds.</p><ul><li>The indicator now stays visible above the VNM overlay while the game is paused.</li></ul>"
+    "title": "🌸 Visual Novel Maker v1.5.0",
+    "content": "<p>v1.5.0 adds scene interactions and new controls for live dialogue and character presentation.</p><ul><li>Drag items, Item Piles, or journal pages onto the background to create clickable markers. Hide and reveal them, or chain actions.</li><li>Change character images using multiple resources, with separate rules for each expression.</li><li>Apply reusable dialogue styles to selected chat text. Includes eight built-in styles, automatic glossary links, and per-character fonts and colors.</li><li>Save title cards for Stories and macros. Switch backgrounds by in-game time and choose how image margins are filled.</li><li>Use expression shortcuts and custom emotion effects, select speakers from standings, bring in a saved party, and add staged characters to combat.</li><li>Item acquisition cards now handle empty descriptions, consecutive cards, and reconnecting players correctly. Overlay appearance changes reach players without reloading.</li></ul><p>Requires GlitchSmith Library 0.13.1 or later. Item Piles and Unboxing the Mystery are optional; journal page marker actions require Unboxing the Mystery 1.5.0 or later.</p>"
   }
 }
