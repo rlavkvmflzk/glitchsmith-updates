@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.5.2",
+  "latestVersion": "1.5.3",
   "downloadUrl": "",
-  "notes": "<b>v1.5.2 Update</b><br>- Choose the minimum Actor permission needed to see organization members: No permission required, LIMITED, OBSERVER, OWNER, or GM only. The default is LIMITED.<br>- Show member names and portraits without granting Actor sheet access. Existing hidden-member settings still apply.<br>- Fixed organization member lists not refreshing after Actor permission changes.",
+  "notes": "<b>v1.5.3 Update</b><br>- Fixed Scene Recall images staying cropped when scaled down. All six themes can now show the full image when scaled down far enough.<br>- Kept existing animations and framing at 100% or higher. Image scale and position edits still update the preview immediately.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-relationship-tracker-v1.5.2-release",
+    "id": "stylish-relationship-tracker-v1.5.3-release",
     "show": true,
-    "title": "💞 Stylish Relationship Tracker v1.5.2",
-    "content": "<p><b>Organization Member Visibility</b></p><ul><li>In an organization's edit form, open Visibility and choose Minimum permission to see members: No permission required, LIMITED, OBSERVER, OWNER, or GM only. The default is LIMITED.</li><li>The setting controls member names and portraits in the directory and organization map. Actor sheet, relationship record, and status tag access remain unchanged. Hidden organizations and members stay hidden.</li><li>Fixed organization member lists not refreshing after Actor permission changes.</li></ul>"
+    "title": "💞 Stylish Relationship Tracker v1.5.3",
+    "content": "<p><b>Scene Recall Image Scaling</b></p><ul><li>Reducing the image scale now reveals the original image's edges, so the full image can fit in the panel. This works across all six themes, including wide and tall images.</li><li>Existing animations and framing at 100% or higher are preserved. Scale and position edits update the open preview immediately.</li></ul>"
   }
 }
