@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.4",
+  "latestVersion": "1.1.6",
   "downloadUrl": "",
-  "notes": "<b>v1.1.4 Update</b><br>- Reduced click delays in collection displays, including Signal Archive's Cases, Index, and Feed screens. Region sizing, scrollbar updates, and font checks now run in batches to avoid repeated layout work.<br>- Theme styles now activate only for themes used by open pages, their parts, and transition previews. Mixed-theme pages and both editors keep their existing appearance and animations.",
+  "notes": "<b>v1.1.6 Update</b><br>- Map Surround pages now retain their frame settings, layout variants, and theme information when duplicated, imported from page JSON, or saved as recovery copies.<br>- Copies use independent Map Surround Sets. Use Add a Map in the copy's map management window to attach maps.<br>- Single-layout recovery copies keep the draft's layout when another GM has changed the saved frame.<br>Pages that have already lost their Map Surround settings are not restored automatically.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "landing-page-maker-v1.1.4-release",
+    "id": "landing-page-maker-v1.1.6-release",
     "show": true,
-    "title": "🎨 Landing Page Maker v1.1.4",
-    "content": "<p><b>Landing Page Maker v1.1.4</b></p><ul><li>Reduced click delays in collection displays, including Signal Archive's Cases, Index, and Feed screens. Region sizing, scrollbar updates, and font checks now run in batches to avoid repeated layout work.</li><li>Theme styles now activate only for themes used by open pages, their parts, and transition previews. Mixed-theme pages and both editors keep their existing appearance and animations.</li></ul>"
+    "title": "🎨 Landing Page Maker v1.1.6",
+    "content": "<p><b>Landing Page Maker v1.1.6</b></p><ul><li>Map Surround pages now retain their frame settings, layout variants, and theme information when duplicated, imported from page JSON, or saved as recovery copies.</li><li>Copies use independent Map Surround Sets. Use Add a Map in the copy's map management window to attach maps.</li><li>Single-layout recovery copies keep the draft's layout when another GM has changed the saved frame.</li></ul><p>Pages that have already lost their Map Surround settings are not restored automatically.</p>"
   }
 }
