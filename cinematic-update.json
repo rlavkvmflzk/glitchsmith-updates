@@ -1,12 +1,12 @@
 {
-  "latestVersion": "2.0.9",
+  "latestVersion": "3.0.0",
   "downloadUrl": "",
-  "notes": "<b>v2.0.9 Update</b><br>Fixed actor Advanced Formula and Dice Check triggers on RSReforged Quick Rolls, including natural 1 conditions.<br>Actor conditions run once per chat card, so rendering the card again does not replay cut-ins or macros.<br>Fixed RSReforged critical attacks running item condition macros twice.",
+  "notes": "<b>v3.0.0 Update</b><br>Build Versus screens in Fight, Fantasy, or SF with up to six characters per side, team colors, boss entrances, individual voices, and combat-start playback.<br>Arrange and save cut-in sequences with transitions, an optional shared background, and continuous music.<br>Time character motion and layer visibility or effects in the preview timeline, with separate speed and strength controls. Rotate text and artwork from selection-box corners.<br>Added seven character movements, seven layer animations, and the Tarot and Paper Theater themes.<br>Added D&amp;D5e and PF2e attack critical-failure triggers, with Midi-QOL and RSReforged support for D&amp;D5e. Non-attack checks gain PF2e critical-failure and D&amp;D5e natural-1 conditions.<br>Fixed Stellar boxed framing, layer masks and editing, interrupted effects, and roll-trigger handling. Existing Stellar boxed presets may need position and scale adjustments.",
   "critical": false,
   "announcement": {
-    "id": "v2.0.9-release",
+    "id": "v3.0.0-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v2.0.9",
-    "content": "<p><b>v2.0.9: RSReforged Trigger Fixes</b></p><ul><li>Actor Advanced Formula and Dice Check triggers now evaluate RSReforged Quick Rolls after the dice are available, including natural 1 conditions such as <code>d.includes(1)</code>.</li><li>Actor conditions run once per chat card. Rendering the card again does not replay the cut-in or macro.</li><li>RSReforged critical attacks no longer evaluate item keyword, dice, and formula rules twice, preventing duplicate macro execution.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v3.0.0",
+    "content": "<p><b>v3.0.0: Versus Screens and Cut-in Sequences</b></p><ul><li>Introduce both sides with Fight, Fantasy, or SF Versus screens. Set team colors, boss entrances, individual voices, and automatic playback when combat starts.</li><li>Arrange cut-ins with transitions, a shared background, and continuous music. Save through existing presets and play from the editor, control panel, macros, or triggers.</li><li>Move and trim timeline bars to set start and end times. Layer visibility and effects have separate intervals, with speed and strength controlled separately.</li><li>Choose seven character movements and seven layer animations. Rotate text and artwork in the preview. Tarot and Paper Theater add card-flip and paper-stage entrances.</li><li>D&amp;D5e and PF2e gain attack critical-failure conditions, with Midi-QOL and RSReforged support for D&amp;D5e. Non-attack checks can use PF2e critical failure or D&amp;D5e's kept natural 1.</li><li>Fixed Stellar boxed framing, masks, editing scroll, interrupted effects, and roll-trigger handling. Existing Stellar boxed presets may need position and scale adjustments.</li></ul>"
   }
 }
