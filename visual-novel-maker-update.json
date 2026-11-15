@@ -1,12 +1,12 @@
 {
-  "latestVersion": "1.5.0",
-  "notes": "<b>v1.5.0 Update</b><br>Clickable scene markers, resource-based character images, reusable dialogue styles, saved title cards, and expanded Live Director controls.<br>Requires GlitchSmith Library 0.13.1 or later.",
+  "latestVersion": "1.5.2",
+  "notes": "<b>v1.5.2 Update</b><br>Live Mode dialogue no longer takes its text color and font from another module's chat message styling. Also includes the Clear Speaker button from v1.5.1.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "visual-novel-maker-v1.5.0-release",
+    "id": "visual-novel-maker-v1.5.2-release",
     "show": true,
-    "title": "🌸 Visual Novel Maker v1.5.0",
-    "content": "<p>v1.5.0 adds scene interactions and new controls for live dialogue and character presentation.</p><ul><li>Drag items, Item Piles, or journal pages onto the background to create clickable markers. Hide and reveal them, or chain actions.</li><li>Change character images using multiple resources, with separate rules for each expression.</li><li>Apply reusable dialogue styles to selected chat text. Includes eight built-in styles, automatic glossary links, and per-character fonts and colors.</li><li>Save title cards for Stories and macros. Switch backgrounds by in-game time and choose how image margins are filled.</li><li>Use expression shortcuts and custom emotion effects, select speakers from standings, bring in a saved party, and add staged characters to combat.</li><li>Item acquisition cards now handle empty descriptions, consecutive cards, and reconnecting players correctly. Overlay appearance changes reach players without reloading.</li></ul><p>Requires GlitchSmith Library 0.13.1 or later. Item Piles and Unboxing the Mystery are optional; journal page marker actions require Unboxing the Mystery 1.5.0 or later.</p>"
+    "title": "🌸 Visual Novel Maker v1.5.2",
+    "content": "<p>v1.5.2 fixes Live Mode dialogue taking its text color and font from other chat modules. It also includes the Clear Speaker button from v1.5.1.</p><ul><li>Text color and font that another module applies to a whole chat message no longer carry into Live Mode dialogue or the Dialogue Backlog. Colors and fonts applied to selected text in the chat input still carry over.</li><li>From v1.5.1: the Clear Speaker icon button on the character bar returns chat to its default speaker and stops your microphone from triggering character speaking animations until you select a character again. Characters stay on stage. If Character Chat Selector is active, its selection also returns to Default.</li></ul>"
   }
 }
