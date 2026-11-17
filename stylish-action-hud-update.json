@@ -1,13 +1,13 @@
 {
-    "latestVersion": "3.1.1",
+    "latestVersion": "3.1.2",
     "critical": false,
-    "notes": "<b>v3.1.1 Update</b><br>Fixed missing condition icons in the standalone OBS HUD on hosts that require a login to load system images. Icons are now sent from the GM's browser as image data.",
+    "notes": "<b>v3.1.2 Update</b><br>Fixed open Action Menu categories and item tooltips remaining visible after collapsing the HUD.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v3.1.1-release",
-        "title": "⚔️ Stylish Action HUD v3.1.1",
-        "content": "<p>v3.1.1 fixes missing condition icons in the standalone OBS HUD.</p><ul><li>On hosts that require a login to load system images, condition icons are now sent from the GM's browser as image data.</li></ul>"
+        "id": "v3.1.2-release",
+        "title": "⚔️ Stylish Action HUD v3.1.2",
+        "content": "<p>v3.1.2 Update</p><ul><li>Collapsing the HUD now closes the open Action Menu category and its item tooltip.</li></ul>"
     }
 }
