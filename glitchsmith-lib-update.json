@@ -1,13 +1,13 @@
 {
-  "latestVersion": "0.13.1",
+  "latestVersion": "0.13.2",
   "downloadUrl": "",
-  "notes": "<b>v0.13.1 Update</b><br>- GMs receive one notice when installed modules require a newer GlitchSmith Library, including modules disabled because of the version mismatch.<br>- The shared clock reads custom day, hour, and minute lengths from supported calendars, including external calendars read through Smartphone Widget.<br>- Clock subscribers refresh after calendar changes, and duration calculations use the active calendar's time units.",
+  "notes": "<b>v0.13.2 Update</b><br>- A GM change during a character sheet payment could leave the character's next payment blocked. The wallet now records confirmed payments and declines when another GM takes over.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "glitchsmith-lib-v0.13.1-release",
+    "id": "glitchsmith-lib-v0.13.2-release",
     "show": true,
-    "title": "📚 GlitchSmith Library v0.13.1",
-    "content": "<p>GlitchSmith Library v0.13.1 fixes custom-calendar time handling and adds minimum-version guidance.</p><ul><li>When a world opens, GMs see the installed library version, each affected module's minimum requirement, and update instructions. The check includes modules disabled by a version mismatch and works offline.</li><li>The shared clock reads custom time units from Simple Calendar, Simple Calendar Reborn, Calendaria, Seasons &amp; Stars, and Foundry calendars, including calendars used by Simple Timekeeping. External calendars keep those units when read through Smartphone Widget.</li><li>Clock subscribers refresh when supported calendars are edited or switched, including Simple Calendar changes received from another GM.</li><li>Duration and remaining-time calculations use the active calendar's time units.</li></ul>"
+    "title": "📚 GlitchSmith Library v0.13.2",
+    "content": "<p>If a GM takes over while a character sheet payment is being processed, the wallet now records whether the payment went through or was declined. The character can make their next purchase, and retrying a completed payment uses the original receipt.</p>"
   }
 }

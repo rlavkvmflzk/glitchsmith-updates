@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.0.2",
+  "latestVersion": "2.1.0",
   "downloadUrl": "",
-  "notes": "<b>v2.0.2 Update</b><br>- Sale end-time and automatic-restock settings now follow the active calendar's hours per day and minutes per hour. On a 30-hour calendar, a saved 25:00 restock stays at 25:00.<br>- Restock intervals and duration calculations use custom calendar units, including external calendars read through Smartphone Widget.<br>- Requires GlitchSmith Library 0.13.1.",
+  "notes": "<b>v2.1.0 Update</b><br>Requires GlitchSmith Library 0.13.2 or later.<br>- Dark Fantasy turns the Character shop into an iron noticeboard. Cursed Curios has a cabinet of antique drawers in both Character and Grid layouts.<br>- Give an unidentified item a display name, image and description. After purchase, the buyer sees its real name and configured stats on a private screen that matches the shop's theme.<br>- Shopkeepers can use looping WEBM or MP4 portraits. Greetings, farewells and other effects can choose from several sound files.<br>- Set which item types a shop buys, search for icons, or open shops in a window by default.<br>- Display Stats supports formulas. Project FU weapons show their accuracy and damage automatically.<br>- Large catalogs save faster. Duplicate listings keep their own prices and stock, and another player's purchase keeps your confirmation open.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-shop-v2.0.2-release",
+    "id": "stylish-shop-v2.1.0-release",
     "show": true,
-    "title": "🛍️ Stylish Shop v2.0.2",
-    "content": "<p>Stylish Shop v2.0.2 fixes sale and restock times for custom calendars.</p><ul><li>Sale end-time and automatic-restock settings follow the calendar's hours per day and minutes per hour. A 30-hour calendar accepts times through 29:59, and saving 25:00 no longer changes it to 23:00.</li><li>Restock intervals follow the calendar's day length, including external calendars read through Smartphone Widget. The Foundry calendar fallback also uses custom time units.</li><li>Update GlitchSmith Library to 0.13.1 or later.</li></ul>"
+    "title": "🛍️ Stylish Shop v2.1.0",
+    "content": "<p>Update GlitchSmith Library to 0.13.2 or later before updating Stylish Shop. It fixes character sheet payments getting stuck when another GM takes over.</p><p>Choose either new storefront in Shop Settings under Appearance. Unidentified items work in every shop theme.</p><ul><li><b>Dark Fantasy</b> displays categories and wares on iron plates against a ruined abbey. <b>Cursed Curios</b> displays each antique's history and writes purchases on a pawn ticket. Choose Character or Grid for the antique shop.</li><li>In <b>Products &amp; stock</b>, expand an item and turn on <b>List as an unidentified item</b>. Set the name, image and description players see while browsing. When the buyer receives the item, a private screen in the shop's theme shows its real name, artwork, description and the stats set for its type. Public purchase messages use the display name.</li><li>Use a looping video for the shopkeeper. Enter one sound file per line to vary the greeting, farewell or other shop effects.</li><li>Choose which item types a merchant buys. World rules apply until a shop sets its own.</li><li>Combine item fields in a display stat or use the built-in Project FU weapon formulas. A new icon picker searches English names and common Korean terms.</li><li>Large shops save faster. Open shops show price and stock edits made in the Smartphone Shop App. Editing a quantity keeps that row in view in the sell cart.</li></ul>"
   }
 }

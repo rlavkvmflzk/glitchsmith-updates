@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.0.0",
+  "latestVersion": "1.1.1",
   "downloadUrl": "",
-  "notes": "<b>v1.0.0 Release</b><br>Initial release.",
+  "notes": "<b>v1.1.1 Update</b><br>- Fixed a double charge that could happen after a currency exchange refreshed your cart.<br>- Fixed a false 100% discount and price-drop alert for wishlist items whose currency the GM had removed.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "smartphone-shop-app-v1.0.0-release",
+    "id": "smartphone-shop-app-v1.1.1-release",
     "show": true,
-    "title": "Smartphone - Shop App v1.0.0",
-    "content": "<p><b>Smartphone - Shop App v1.0.0 has been released.</b></p>"
+    "title": "Smartphone - Shop App v1.1.1",
+    "content": "<ul><li>Checkout charges for the quantity in your cart even if the GM exchanges currency while you are shopping.</li><li>A wishlist item shows a dash for its price when the GM removes its currency. You still get a price-drop alert if an item becomes free.</li></ul>"
   }
 }
