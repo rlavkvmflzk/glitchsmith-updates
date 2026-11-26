@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.5.3",
+  "latestVersion": "1.6.0",
   "downloadUrl": "",
-  "notes": "<b>v1.5.3 Update</b><br>- Fixed Scene Recall images staying cropped when scaled down. All six themes can now show the full image when scaled down far enough.<br>- Kept existing animations and framing at 100% or higher. Image scale and position edits still update the preview immediately.",
+  "notes": "<b>v1.6.0 Update</b><br>- Choose any of 19 fields to share in Manage sharing, with quick presets and hover help.<br>- Character profile shares roles, stat cards, portraits, cut-in images and accent color while each PC keeps their own relationship type and rank.<br>- Turning off a shared field keeps its last value for each PC to edit independently.<br>- After a GM applies the sharing settings, players with editing permission can edit unshared fields while the GM is offline. A PC owner must be connected.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "stylish-relationship-tracker-v1.5.3-release",
+    "id": "stylish-relationship-tracker-v1.6.0-release",
     "show": true,
-    "title": "💞 Stylish Relationship Tracker v1.5.3",
-    "content": "<p><b>Scene Recall Image Scaling</b></p><ul><li>Reducing the image scale now reveals the original image's edges, so the full image can fit in the panel. This works across all six themes, including wide and tall images.</li><li>Existing animations and framing at 100% or higher are preserved. Scale and position edits update the open preview immediately.</li></ul>"
+    "title": "💞 Stylish Relationship Tracker v1.6.0",
+    "content": "<p>Choose what each relationship shares across PCs.</p><ul><li>Open <b>Manage sharing</b>, choose <b>Character profile</b>, <b>Shared details</b> or <b>Shared party progress</b>, then adjust any of the 19 fields. Hover over a checkbox or focus it with the keyboard for an explanation.</li><li><b>Character profile</b> shares the contact's role, bio, stat cards, portraits, map artwork, cut-in images and accent color. Each PC can keep their own relationship type and rank.</li><li>Starting to share a field copies its value from the open relationship. Turning sharing off keeps the last shared value for each PC to edit independently.</li><li>After a GM applies the sharing settings, players with editing permission can update unshared fields, including notes and events, while the GM is offline. An owner of the PC must be connected.</li></ul>"
   }
 }
