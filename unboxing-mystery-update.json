@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.6.0",
+  "latestVersion": "1.6.1",
   "downloadUrl": "",
-  "notes": "<b>v1.6.0 Update</b><br>🔑 Enable Open with key to let characters holding the required item open Journals, Tiles, Doors, and Item Piles containers without playing the puzzle.<br>Tile roll checks are skipped, while reveals, rewards, and success macros still run. Consume Key also applies.<br>The option is off by default. Mystery Chains and gacha are excluded.",
+  "notes": "<b>v1.6.1 Update</b><br>Fixed gacha spectators getting stuck on the first reward when players receive all results at once.<br>Each spectator window follows the correct draw, including when players advance quickly.<br>Watching GMs can use View All to inspect every reward in their own window.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "unboxing-mystery-v1.6.0-release",
+    "id": "unboxing-mystery-v1.6.1-release",
     "show": true,
-    "title": "🎁 Unboxing the Mystery v1.6.0",
-    "content": "<p>Unboxing the Mystery v1.6.0 adds Open with key for characters holding the required item.</p><ul><li>Enable it on Journals, Tiles, Doors, or Item Piles containers to open them without playing the puzzle.</li><li>Key unlocks skip preceding Tile roll checks and keep normal reveals, rewards, and success macros. Consume Key determines whether the item is removed after a successful unlock.</li><li>The option is off by default and supports individual puzzle modes. Mystery Chains and gacha are excluded.</li></ul>"
+    "title": "🎁 Unboxing the Mystery v1.6.1",
+    "content": "<p>Unboxing the Mystery v1.6.1 fixes gacha spectator results.</p><ul><li>Spectators see all rewards when players receive all results at once.</li><li>Each spectator window follows the correct draw, including when players advance quickly.</li><li>Watching GMs can use View All to inspect every reward in their own window.</li></ul>"
   }
 }
