@@ -1,13 +1,13 @@
 {
-    "latestVersion": "3.1.3",
+    "latestVersion": "3.1.4",
     "critical": false,
-    "notes": "<b>v3.1.3 Update</b><br>Sharper card and menu text in Iron &amp; Blood, Glass and Zenith. Fixed missing hit effects and false OBS warnings for condition icons. Use Download OBS HTML to update an existing standalone OBS source.",
+    "notes": "<b>v3.1.4 Update</b><br>Adjust the actor's default portrait directly from the Portrait tab. Fixed portrait field alignment and character-name wrapping. Settings retain scroll positions when editing variants or returning to an actor or tab.",
     "downloadUrl": "",
     "forceResetId": null,
     "announcement": {
         "show": true,
-        "id": "v3.1.3-release",
-        "title": "⚔️ Stylish Action HUD v3.1.3",
-        "content": "<p>v3.1.3 Update</p><ul><li>Card names, GM List text and Action Menu submenus are easier to read in Iron &amp; Blood, Glass and Zenith.</li><li>Scene details show through the tint on expanded Glass cards. The arrows beside OPERATING and hovered menu items display correctly.</li><li>Glass and Iron &amp; Blood cards shake from their current position when hit, including with Mirror Party HUD enabled.</li><li>Fixed Iron &amp; Blood cards replaying their entrance after a hit in OBS and a false asset warning for condition icons that loaded successfully.</li></ul><p>To update an existing OBS Browser Source, open Broadcast Settings, choose <b>Download OBS HTML</b> and replace its local HTML file.</p>"
+        "id": "v3.1.4-release",
+        "title": "⚔️ Stylish Action HUD v3.1.4",
+        "content": "<p>v3.1.4 Update</p><ul><li>Adjust the default portrait's scale and position without adding a variant. Removing the last variant returns to the default image.</li><li>Portrait variant fields stay aligned in narrow settings windows.</li><li>Character names above the Action Menu wrap between words, with more room in Epic Fantasy and Glass.</li><li>Settings retain scroll positions when adding or removing variants and when returning to an actor or tab.</li></ul>"
     }
 }

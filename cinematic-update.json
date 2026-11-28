@@ -1,12 +1,12 @@
 {
-  "latestVersion": "3.0.3",
+  "latestVersion": "3.0.4",
   "downloadUrl": "",
-  "notes": "<b>v3.0.3 Update</b><br>Added Invert (Remaining Amount) to resource triggers. For resources such as Daggerheart HP and Stress, conditions can use the maximum minus the current value, as a percentage or an absolute amount. Hover over the option for help.",
+  "notes": "<b>v3.0.4 Update</b><br>- Added Keep characters on their side to the Versus Screen tab.<br>- Fixed Fantasy Versus shadows covering other characters.<br>- Fixed default Teko loading and Tarot and Paper Theater theme fonts.<br>- Removed nonfunctional trigger controls from the Scene Editor.<br>- Fixed bundled sounds on The Forge and missing default sounds in older presets.",
   "critical": false,
   "announcement": {
-    "id": "v3.0.3-release",
+    "id": "v3.0.4-release",
     "show": true,
-    "title": "🎬 Cinematic Cut-ins v3.0.3",
-    "content": "<p><b>v3.0.3 Update</b></p><ul><li>Added Invert (Remaining Amount) to resource triggers. For resources such as Daggerheart HP and Stress, conditions can use the maximum minus the current value, as a percentage or an absolute amount. Hover over the option for help.</li></ul>"
+    "title": "🎬 Cinematic Cut-ins v3.0.4",
+    "content": "<p><b>v3.0.4 Update</b></p><ul><li>Added <b>Keep characters on their side</b> to the Versus setup's Screen tab. Character images are clipped at the boundary between the sides, with the theme's dividing line drawn over them.</li><li>Fixed doorway shadows covering other characters in Fantasy Versus screens with multiple characters on a side.</li><li>Fixed the default Teko font not loading and Tarot and Paper Theater using Teko instead of their own theme font.</li><li>Removed trigger lists and Add Trigger buttons that did not work in the Scene Editor. Combat start, round start, and combat end automation remain available.</li><li>Fixed bundled sound effects failing to play on The Forge. The sound picker finds the host's uploaded module sounds, and older presets with missing default sounds use bundled replacements.</li></ul>"
   }
 }
