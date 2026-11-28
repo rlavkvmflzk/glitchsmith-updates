@@ -1,13 +1,13 @@
 {
-  "latestVersion": "1.1.1",
+  "latestVersion": "2.0.0",
   "downloadUrl": "",
-  "notes": "<b>v1.1.1 Patch</b><br>🐛 Chirp now defers automatic refreshes while a user is composing a post, editing profile fields, using GM overlays, or attaching a DM image. Missed updates are applied in one refresh as soon as it is safe, so active input is no longer interrupted.",
+  "notes": "<b>v2.0.0 Update</b><br>- Use Chirp without a connected GM while the Foundry world stays running: accounts, posts, replies, reactions, follows, profiles, notifications, and direct messages.<br>- Activity persists after reconnecting, and simultaneous updates preserve each player's changes.<br>- Incoming activity preserves drafts and scrolling. New direct messages appear unread even when in-game time is paused.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "chirp-v1.1.1-realtime-refresh",
+    "id": "chirp-v2.0.0-realtime-refresh",
     "show": true,
-    "title": "🐦 Chirp App v1.1.1",
-    "content": "<p><b>Chirp App v1.1.1 is a small stability patch.</b></p><ul><li><b>Realtime Updates:</b> Chirp now waits before refreshing while users are composing posts, editing profiles, using GM overlays, or attaching DM images.</li><li>Any missed updates are applied in one refresh once it is safe, so timelines still catch up without interrupting active input.</li></ul>"
+    "title": "🐦 Chirp App v2.0.0",
+    "content": "<p>Chirp App v2.0.0 lets players use Chirp without a connected GM while the Foundry world stays running.</p><ul><li>Create an account, sign in, publish posts and replies, react, follow accounts, edit profiles, read notifications, and send direct messages.</li><li>Activity persists after reconnecting, and simultaneous updates preserve each player's changes.</li><li>Incoming activity preserves drafts and scroll position. New direct messages appear unread even when in-game time is paused.</li></ul><p>GM account management and moderation still require a GM.</p>"
   }
 }

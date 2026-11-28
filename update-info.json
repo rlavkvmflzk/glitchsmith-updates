@@ -1,13 +1,13 @@
 {
-  "latestVersion": "2.4.0",
+  "latestVersion": "3.0.0",
   "downloadUrl": "",
-  "notes": "<b>v2.4.0 Update</b><br>- GM clients now default to the GM Master Phone when no valid phone is selected.<br>- Added public APIs for opening the widget, listing installed apps, and opening an installed app.<br>- Direct app launches now recheck phone access and app installation after the lock screen, and delayed renders no longer replace the requested app.<br>- Players without an assigned phone now see the no-device screen without leftover phone visuals.<br>- Requires GlitchSmith Library v0.13.0 or later.",
+  "notes": "<b>v3.0.0 Update</b><br>- Use phone apps without a connected GM while the Foundry world stays running, including messages, Social, calls, banking, and prepared Gacha pools. Requires GlitchSmith Library 0.13.2 or later.<br>- Register custom image emoji, share world emoji, preview emoji while typing, and react to messages.<br>- Create group polls, pin messages, and save messages to Notes with a link to the original.<br>- Search full conversation history and browse shared photos.<br>- Transfer money from Contacts and request payments in direct or group chats, including individual amounts, split totals, or one member paying.<br>- Keep direct messages after changing phone numbers. Incoming updates preserve drafts and scrolling.",
   "critical": false,
   "forceResetId": null,
   "announcement": {
-    "id": "smartphone-widget-v2.4.0-feature-update",
+    "id": "smartphone-widget-v3.0.0-feature-update",
     "show": true,
-    "title": "📱 Smartphone Widget v2.4.0",
-    "content": "<p><b>Smartphone Widget v2.4.0 improves GM phone selection and app opening reliability.</b></p><ul><li>GM clients now default to the GM Master Phone when no valid phone is selected.</li><li>New public APIs let integrations open the widget, inspect installed apps, and open an installed app.</li><li>Direct app launches recheck phone access and app installation after the lock screen, and delayed renders no longer replace the requested app.</li><li>Players without an assigned phone now see the no-device screen without leftover wallpaper, frame, or app content.</li><li>This update requires GlitchSmith Library v0.13.0 or later.</li></ul>"
+    "title": "📱 Smartphone Widget v3.0.0",
+    "content": "<p>Smartphone Widget v3.0.0 lets players keep using their phones without a connected GM while the Foundry world stays running. Requires GlitchSmith Library 0.13.2 or later.</p><ul><li>Messages, Social, contacts, gallery, notes, calendar, and phone customization save and sync without a GM. Calls, banking, prepared Gacha pools, and multiplayer Checkers also work.</li><li>Add custom image emoji, including animated GIFs. GMs can share emoji with every phone. Preview emoji in the message draft and leave reactions on messages.</li><li>Create group polls with single or multiple choices and optional anonymous voting. Open ongoing polls or the pinned-message list from the top of a conversation.</li><li>Save messages to Notes, search a conversation's full history, and browse its shared photos. Return to the original message from each view.</li><li>Send money from Contacts or request payments in a conversation. Group requests support individual amounts, splitting a total, or one member paying.</li><li>Changing a phone number keeps its direct messages and read status. Incoming updates preserve drafts and scrolling.</li></ul><p>Scheduled Social publishing and world time controls still require a GM. File uploads and saved image edits require Foundry's Upload Files permission.</p>"
   }
 }
